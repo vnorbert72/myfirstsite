@@ -29,7 +29,8 @@ export function BackToTop() {
       tabIndex={visible ? 0 : -1}
       title={label}
       data-testid="button-back-to-top"
-      className={`fixed bottom-6 right-6 z-50 rounded-full shadow-lg transition-opacity duration-300 ${
+      style={{ position: "fixed", zIndex: 50 }}
+      className={`bottom-8 right-8 rounded-full shadow-lg transition-opacity duration-300 ${
         visible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
     >
