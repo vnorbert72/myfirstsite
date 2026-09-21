@@ -1,0 +1,686 @@
+{
+  "common": {
+    "appName": "FitFusion",
+    "readMore": "Read More",
+    "backToBlog": "Back to Blog",
+    "viewAll": "View All",
+    "search": "Search",
+    "searchPlaceholder": "Search articles...",
+    "showingArticles": "Showing {{count}} articles",
+    "minuteRead": "{{minutes}} min read",
+    "loading": "Loading...",
+    "calculate": "Calculate",
+    "calculateNow": "Calculate Now",
+    "reset": "Reset",
+    "downloadPdf": "Download PDF"
+  },
+  "references": {
+    "title": "Scientific References",
+    "description": "Calculations and recommendations are based on peer-reviewed research and guidelines from the following authoritative sources:"
+  },
+  "backToTop": "Back to top",
+  "authorBio": {
+    "label": "About the Author",
+    "credentials": "Certified Fitness & Nutrition Specialist",
+    "bio": "Our content team includes certified personal trainers, registered dietitians, and sports nutrition specialists committed to delivering accurate, science-backed health and fitness guidance."
+  },
+  "share": {
+    "title": "Share:",
+    "facebook": "Share on Facebook",
+    "twitter": "Share on Twitter",
+    "linkedin": "Share on LinkedIn",
+    "pinterest": "Share on Pinterest",
+    "whatsapp": "Share on WhatsApp",
+    "native": "Share via...",
+    "copyLink": "Copy link",
+    "copied": "Link copied!"
+  },
+  "nav": {
+    "home": "Home",
+    "calculators": "Calculators",
+    "blog": "Blog",
+    "foodSearch": "Food Search",
+    "tips": "Fitness Tips",
+    "supplements": "Supplements"
+  },
+  "hero": {
+    "title": "Know your numbers. Plan your nutrition.",
+    "subtitle": "Free calculators for BMI, daily calories, and macros — built on published formulas, with clear guidance on what your results mean.",
+    "ctaCalculate": "Try the calculators",
+    "ctaLearn": "See how it works"
+  },
+  "home": {
+    "benefits": {
+      "title": "Why people use FitFusion",
+      "subtitle": "Simple tools that respect your time, your data, and the evidence",
+      "free": {
+        "title": "Free, no account needed",
+        "description": "Every tool works instantly in your browser. No sign-up, no paywall, no locked features."
+      },
+      "science": {
+        "title": "Built on published formulas",
+        "description": "Calculations use the Mifflin-St Jeor equation, WHO BMI classifications, and USDA nutrition data."
+      },
+      "privacy": {
+        "title": "Private by design",
+        "description": "Your measurements never leave your device — nothing you type into a calculator is stored or shared."
+      },
+      "guidance": {
+        "title": "Results with context",
+        "description": "Every number comes with a plain-language explanation, so you know what it means and what to do next."
+      }
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "subtitle": "Three steps from question to answer — in under a minute",
+      "step1": {
+        "title": "Pick a tool",
+        "description": "Choose the calculator that matches your question — weight status, daily calories, or macro targets."
+      },
+      "step2": {
+        "title": "Enter your details",
+        "description": "Add your height, weight, age, and activity level. Everything stays on your device."
+      },
+      "step3": {
+        "title": "Get your numbers",
+        "description": "See your result instantly, with an explanation of what it means and sensible next steps."
+      }
+    },
+    "food": {
+      "title": "Look up what you eat",
+      "description": "Search nutrition facts for everyday foods — calories, protein, carbs, and fat per 100 g — and browse simple pre- and post-workout recipes.",
+      "bullet1": "Nutrition data per 100 g, based on the USDA database",
+      "bullet2": "Pre- and post-workout recipe ideas",
+      "bullet3": "Quick calorie comparison table across food groups",
+      "cta": "Browse the food database"
+    },
+    "supplements": {
+      "title": "Supplements, without the hype",
+      "description": "Answer a few questions about your age, weight, and training goal to see which supplements have real evidence behind them — and which you can skip.",
+      "bullet1": "Personalized to your age, weight, and goal",
+      "bullet2": "Ranked by evidence: essential, beneficial, optional",
+      "bullet3": "Clear dosage and timing guidance for each one",
+      "cta": "Get supplement guidance"
+    },
+    "finalCta": {
+      "title": "Start with one number",
+      "subtitle": "Your daily calorie target takes less than a minute to work out. Start there, then fine-tune with macros.",
+      "ctaPrimary": "Calculate my daily calories",
+      "ctaSecondary": "See all calculators"
+    }
+  },
+  "calculators": {
+    "title": "Our Fitness Calculators",
+    "subtitle": "Five free tools covering the essentials: weight status, metabolism, daily calories, macros, and food nutrition",
+    "bmi": {
+      "title": "BMI Calculator",
+      "description": "Calculate your Body Mass Index and understand your weight category"
+    },
+    "bmr": {
+      "title": "BMR Calculator",
+      "description": "Discover your Basal Metabolic Rate - calories burned at rest"
+    },
+    "calories": {
+      "title": "Daily Calories",
+      "description": "Find out how many calories you need based on your activity level"
+    },
+    "macros": {
+      "title": "Macronutrients",
+      "description": "Get personalized macronutrient recommendations for your goals"
+    },
+    "food": {
+      "title": "Food Search",
+      "description": "Look up nutritional information for thousands of foods"
+    }
+  },
+  "scientificFormulas": {
+    "title": "Grounded in established science",
+    "subtitle": "The same formulas used by dietitians and health organizations — nothing proprietary, nothing made up",
+    "note": "FitFusion is an educational tool. It doesn't replace advice from your doctor or a registered dietitian.",
+    "mifflin": {
+      "title": "Mifflin-St Jeor Equation",
+      "description": "Gold standard for BMR calculation, recommended by nutrition professionals"
+    },
+    "who": {
+      "title": "WHO Guidelines",
+      "description": "BMI classifications based on World Health Organization standards"
+    },
+    "usda": {
+      "title": "USDA Database",
+      "description": "Comprehensive food nutrition data from trusted government sources"
+    }
+  },
+  "blog": {
+    "title": "Health & Fitness Blog",
+    "subtitle": "Expert insights on nutrition, workouts, and wellness",
+    "latestArticles": "Latest Health & Fitness Articles",
+    "categories": {
+      "all": "All",
+      "nutrition": "Nutrition",
+      "workouts": "Workouts",
+      "wellness": "Wellness"
+    },
+    "by": "By",
+    "noResults": "No articles found. Try adjusting your search or filter.",
+    "enjoyedArticle": "Enjoyed this article? Share it with others!",
+    "relatedToolsTitle": "Put this into practice",
+    "tagsLabel": "Tags:",
+    "featured": "Featured",
+    "updatedOn": "Updated {{date}}",
+    "relatedArticles": "Related Articles",
+    "readArticle": "Read Article"
+  },
+  "footer": {
+    "tagline": "Science-backed fitness calculators for your health journey",
+    "calculators": "Calculators",
+    "resources": "Resources",
+    "blogArticles": "Blog & Articles",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "contact": "Contact",
+    "disclaimer": "The information provided on this website is intended for informational purposes only and should not be considered as professional advice. As each individual is unique, the applicability of the information may vary. We recommend seeking personalized advice for specific situations.",
+    "copyright": "© {{year}} FitFusion. All rights reserved."
+  },
+  "aboutPage": {
+    "seoTitle": "About Us - FitFusion Fitness & Nutrition Calculators",
+    "seoDescription": "Learn about FitFusion's mission to make science-backed fitness and nutrition tools free and accessible to everyone, in multiple languages.",
+    "badge": "Who We Are",
+    "title": "About FitFusion",
+    "subtitle": "Science-backed fitness tools, free for everyone",
+    "missionTitle": "Our Mission",
+    "missionP1": "FitFusion was created with a simple goal: to give everyone free access to accurate, science-based fitness and nutrition calculators. Whether you're starting your fitness journey, managing your weight, or fine-tuning your athletic performance, understanding your body's numbers is the first step toward informed decisions.",
+    "missionP2": "We believe health information should be clear, honest, and available in your own language. That's why FitFusion is fully available in English, Hungarian, and Spanish — with more to come.",
+    "whatTitle": "What We Offer",
+    "whatIntro": "All of our tools are based on peer-reviewed scientific formulas and are completely free to use:",
+    "what1": "BMI, BMR, daily calorie (TDEE), and macronutrient calculators built on established formulas like Mifflin-St Jeor",
+    "what2": "A personalized supplement guide based on your goals and lifestyle",
+    "what3": "Evidence-based articles on nutrition, training, and wellness",
+    "what4": "Practical fitness tips for beginners and experienced athletes alike",
+    "valuesTitle": "Our Values",
+    "accuracyTitle": "Accuracy",
+    "accuracyText": "Every calculator uses established, peer-reviewed formulas. We cite our methods and never make up numbers.",
+    "accessibilityTitle": "Accessibility",
+    "accessibilityText": "Free tools, multiple languages, mobile-friendly design, and no account required — health insight for everyone.",
+    "transparencyTitle": "Transparency",
+    "transparencyText": "We're clear about what our tools can and can't do. Calculators inform — they never replace professional medical advice.",
+    "disclaimerTitle": "A Note on Health Advice",
+    "disclaimerText": "FitFusion provides educational tools and information, not medical advice. Always consult a qualified healthcare professional before making significant changes to your diet, exercise routine, or supplement use."
+  },
+  "privacyPage": {
+    "seoTitle": "Privacy Policy - FitFusion",
+    "seoDescription": "How FitFusion handles your data: what we collect, how we use it, and your rights. We keep data collection to a minimum.",
+    "title": "Privacy Policy",
+    "updated": "Last updated: July 2026",
+    "intro": "Your privacy matters to us. This policy explains what information FitFusion collects, how we use it, and the choices you have. In short: we collect as little as possible.",
+    "dataTitle": "Information We Collect",
+    "dataText": "Calculator inputs (such as height, weight, and age) are processed entirely in your browser and are never sent to or stored on our servers. The only personal information we store is your email address, and only if you voluntarily subscribe to our newsletter.",
+    "useTitle": "How We Use Your Information",
+    "useText": "If you subscribe to our newsletter, we use your email address solely to send you our newsletter with nutrition science, training tips, and product updates. We never sell, rent, or share your email address with third parties for marketing purposes.",
+    "newsletterTitle": "Newsletter & Unsubscribing",
+    "newsletterText": "You can unsubscribe from our newsletter at any time. Once you unsubscribe, we stop sending you emails.",
+    "cookiesTitle": "Cookies & Local Storage",
+    "cookiesText": "We use your browser's local storage to remember your preferences, such as your language and light/dark theme choice. This data stays on your device. We do not use advertising or cross-site tracking cookies.",
+    "thirdPartyTitle": "Third-Party Services",
+    "thirdPartyText": "Our website is hosted on cloud infrastructure that may log basic technical data (such as IP addresses) for security and reliability purposes. Social sharing buttons only contact the respective platform when you actively click them.",
+    "rightsTitle": "Your Rights",
+    "rightsText": "You have the right to access, correct, or delete the personal data we hold about you (your newsletter email address). To exercise these rights, contact us through the channels listed on our Contact page and we will respond promptly.",
+    "changesTitle": "Changes to This Policy",
+    "changesText": "We may update this policy from time to time. Any changes will be posted on this page with an updated revision date."
+  },
+  "contactPage": {
+    "seoTitle": "Contact Us - FitFusion",
+    "seoDescription": "Get in touch with the FitFusion team. Email us at info@fit-fusion.eu, reach us on Instagram, or subscribe to our newsletter for updates.",
+    "badge": "Get in Touch",
+    "title": "Contact Us",
+    "subtitle": "Questions, feedback, or ideas? We'd love to hear from you.",
+    "emailTitle": "Email Us",
+    "emailText": "Prefer email? Send us a message anytime and we'll get back to you as soon as we can.",
+    "instagramTitle": "Message Us on Instagram",
+    "instagramText": "The fastest way to reach us is via direct message on Instagram. We're active there and usually respond within a few days.",
+    "instagramCta": "Follow @fitfusion25eu",
+    "newsletterTitle": "Stay in the Loop",
+    "newsletterText": "Subscribe to our newsletter below to get updates, new calculators, and evidence-based fitness content delivered to your inbox.",
+    "topicsTitle": "What Can We Help With?",
+    "topic1": "Questions about how our calculators work",
+    "topic2": "Feedback and suggestions for new tools or features",
+    "topic3": "Reporting a bug or translation issue",
+    "topic4": "Partnership and collaboration inquiries",
+    "noteTitle": "Please Note",
+    "noteText": "We can't provide personalized medical or nutrition advice. For guidance specific to your health, please consult a qualified professional."
+  },
+  "newsletter": {
+    "title": "Stay strong, stay informed.",
+    "subtitle": "Weekly nutrition science, training tips, and fresh calculators — straight to your inbox.",
+    "placeholder": "you@example.com",
+    "emailLabel": "Email address",
+    "subscribe": "Subscribe",
+    "subscribing": "Subscribing…",
+    "privacy": "We respect your privacy. Unsubscribe anytime — no spam, ever.",
+    "successTitle": "You're in!",
+    "successDescription": "Check your inbox to confirm your subscription.",
+    "alreadyTitle": "Welcome back!",
+    "alreadyDescription": "This email is already on our list.",
+    "errorTitle": "Something went wrong",
+    "errorDescription": "Please try again in a moment.",
+    "thankYouTitle": "Thanks for subscribing!",
+    "thankYouDescription": "You'll receive our next newsletter soon."
+  },
+  "seo": {
+    "home": {
+      "title": "FitFusion - Free Science-Based Fitness & Nutrition Calculators",
+      "description": "Free calculators for BMI, BMR, daily calories, and macros. Personalized supplement guidance, expert nutrition tips, and a global food database.",
+      "keywords": "BMI calculator, BMR calculator, calorie calculator, macro calculator, fitness calculator, nutrition calculator, weight loss, muscle gain"
+    },
+    "blog": {
+      "title": "Blog & Articles - FitFusion Nutrition, Training & Wellness Insights",
+      "description": "Evidence-based articles on nutrition, training, supplements, and wellness — written and reviewed by certified health professionals.",
+      "keywords": "nutrition articles, fitness blog, training tips, wellness guide, healthy eating, workout plans"
+    }
+  },
+  "bmiCalculator": {
+    "title": "BMI Calculator",
+    "description": "Calculate your Body Mass Index (BMI) to understand your weight category and health status",
+    "inputTitle": "Enter Your Information",
+    "height": "Height",
+    "heightCm": "Height (cm)",
+    "heightFt": "Height (ft)",
+    "heightIn": "Height (in)",
+    "weight": "Weight",
+    "weightKg": "Weight (kg)",
+    "weightLbs": "Weight (lbs)",
+    "unit": "Unit",
+    "metric": "Metric",
+    "imperial": "Imperial",
+    "yourBMI": "Your BMI",
+    "category": "Category",
+    "underweight": "Underweight",
+    "normalWeight": "Normal Weight",
+    "overweight": "Overweight",
+    "obese": "Obese",
+    "enterInfo": "Enter your information and click Calculate",
+    "underweightDescription": "You are underweight. Consider consulting a healthcare provider about healthy weight gain strategies.",
+    "normalWeightDescription": "You are at a healthy weight. Maintain your current lifestyle with balanced nutrition and regular exercise.",
+    "overweightDescription": "You are overweight. Consider a balanced diet and increased physical activity to reach a healthier weight.",
+    "obeseDescription": "You are in the obese category. Consult a healthcare provider for a personalized weight management plan.",
+    "aboutBMI": "About BMI",
+    "aboutDescription": "Body Mass Index (BMI) is a measure of body fat based on height and weight. It's used as a screening tool to identify possible weight problems. However, BMI is not diagnostic and should be used alongside other health assessments.",
+    "categories": "BMI Categories",
+    "categoryUnderweight": "BMI < 18.5",
+    "categoryNormal": "BMI 18.5–24.9",
+    "categoryOverweight": "BMI 25–29.9",
+    "categoryObese": "BMI ≥ 30",
+    "limitations": "Limitations",
+    "limitationsDescription": "BMI doesn't account for muscle mass, bone density, overall body composition, and racial and sex differences. Athletes or very muscular individuals may have high BMI without excess body fat."
+  },
+  "bmrCalculator": {
+    "title": "BMR Calculator",
+    "description": "Calculate your Basal Metabolic Rate (BMR) - the calories your body burns at rest",
+    "inputTitle": "Enter Your Information",
+    "age": "Age",
+    "ageYears": "Age (years)",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "yourBMR": "Your BMR",
+    "caloriesPerDay": "calories/day",
+    "aboutBMR": "About BMR",
+    "aboutDescription": "Basal Metabolic Rate (BMR) is the number of calories your body needs to accomplish its most basic (basal) life-sustaining functions. This calculation uses the Mifflin-St Jeor Equation, which is considered the most accurate formula for most people.",
+    "formula": "The Formula",
+    "formulaMale": "Men: BMR = (10 × weight in kg) + (6.25 × height in cm) - (5 × age in years) + 5",
+    "formulaFemale": "Women: BMR = (10 × weight in kg) + (6.25 × height in cm) - (5 × age in years) - 161",
+    "whatItMeans": "What This Means",
+    "whatItMeansDescription": "Your body burns approximately {bmr} calories per day at complete rest. This is the energy needed for basic life-sustaining functions like breathing, circulation, and cell production.",
+    "gauge": {
+      "low": "Low",
+      "belowAvg": "Below avg.",
+      "average": "Average",
+      "aboveAvg": "Above avg.",
+      "high": "High"
+    },
+    "quickReference": "Quick Reference",
+    "sedentary": "Sedentary (little exercise)",
+    "lightExercise": "Light exercise (1-3 days)",
+    "moderate": "Moderate (3-5 days)",
+    "veryActive": "Very active (6-7 days)",
+    "additionalInfo": "Your BMR accounts for about 60-75% of your total daily energy expenditure. Factors like muscle mass, genetics, and hormones can affect your actual BMR. For total daily calorie needs, you must multiply your BMR by your activity level factor."
+  },
+  "calorieCalculator": {
+    "title": "Daily Calorie Calculator",
+    "description": "Calculate your daily calorie needs based on your activity level and goals",
+    "inputTitle": "Enter Your Information",
+    "activityLevel": "Activity Level",
+    "sedentary": "Sedentary (little or no exercise)",
+    "lightlyActive": "Lightly active (light exercise 1-3 days/week)",
+    "moderatelyActive": "Moderately active (moderate exercise 3-5 days/week)",
+    "veryActive": "Very active (hard exercise 6-7 days/week)",
+    "extraActive": "Extra active (very hard exercise & physical job)",
+    "goal": "Goal",
+    "maintain": "Maintain weight",
+    "loseWeight": "Lose weight (0.5 kg/week)",
+    "gainWeight": "Gain weight (0.5 kg/week)",
+    "yourResults": "Your Daily Calorie Needs",
+    "dailyCalories": "Daily Calories",
+    "resultDescription": "Based on your activity level, you need approximately {calories} calories per day to maintain your current weight.",
+    "goalBased": "Goal-Based Recommendations",
+    "weightLoss": "Weight Loss",
+    "deficitDescription": "500 calorie deficit for ~1 lb/week loss",
+    "maintenance": "Maintenance",
+    "maintainWeight": "Maintain current weight",
+    "muscleGain": "Muscle Gain",
+    "surplusDescription": "300 calorie surplus for lean gains",
+    "targetCalories": "Target Calories",
+    "aboutCalories": "About Daily Calories",
+    "aboutDescription": "Total Daily Energy Expenditure (TDEE) is the total number of calories you burn each day, including your basal metabolic rate and physical activity. It's calculated by multiplying your BMR by an activity factor.",
+    "activityMultipliers": "Activity Multipliers",
+    "multiplierSedentary": "Sedentary: BMR × 1.2",
+    "multiplierLight": "Lightly active: BMR × 1.375",
+    "multiplierModerate": "Moderately active: BMR × 1.55",
+    "multiplierVery": "Very active: BMR × 1.725",
+    "multiplierExtra": "Extra active: BMR × 1.9",
+    "safeWeightLoss": "Safe Weight Loss",
+    "safeWeightLossDescription": "To lose weight, create a calorie deficit by eating fewer calories than your TDEE. For weight gain, eat more. A deficit of 500 calories per day typically results in about 1 pound of weight loss per week. Always consult healthcare professionals before making significant dietary changes.",
+    "selectActivity": "Select activity level"
+  },
+  "macroCalculator": {
+    "title": "Macronutrient Calculator",
+    "description": "Calculate your optimal protein, carbs, and fat intake for your fitness goals",
+    "inputTitle": "Enter Your Information",
+    "dailyCalorieTarget": "Daily Calorie Target",
+    "useCalculator": "Use the Daily Calorie Calculator to find your target",
+    "fitnessGoal": "Fitness Goal",
+    "macros": "Macros",
+    "weightLoss": "Weight Loss",
+    "maintenance": "Maintenance",
+    "muscleGain": "Muscle Gain",
+    "yourMacros": "Your Daily Macronutrients",
+    "resultDescription": "These macronutrient targets are optimized for your {goal} goal. Track your daily intake to ensure you're meeting these targets for best results.",
+    "macroSplit": "Macro Split",
+    "balanced": "Balanced (40% carbs, 30% protein, 30% fat)",
+    "lowCarb": "Low Carb (20% carbs, 40% protein, 40% fat)",
+    "highProtein": "High Protein (30% carbs, 40% protein, 30% fat)",
+    "ketogenic": "Ketogenic (5% carbs, 25% protein, 70% fat)",
+    "protein": "Protein",
+    "carbs": "Carbohydrates",
+    "fat": "Fats",
+    "grams": "grams",
+    "aboutMacros": "About Macronutrients",
+    "aboutDescription": "Macronutrients (macros) are the nutrients your body needs in large amounts: protein, carbohydrates, and fats. Each provides energy (calories) and plays unique roles in your health and fitness.",
+    "macroRoles": "Macro Roles",
+    "proteinRole": "Protein (4 calories per gram): Essential for muscle repair and growth. Higher protein intake helps preserve muscle during weight loss and supports muscle building.",
+    "carbsRole": "Carbohydrates (4 calories per gram): Your body's primary energy source. Important for workout performance and recovery. Lower carbs may help with fat loss.",
+    "fatRole": "Fats (9 calories per gram): Crucial for hormone production and nutrient absorption. Don't go too low as fats are essential for health.",
+    "choosingSplit": "Choosing Your Split",
+    "choosingSplitDescription": "These are general recommendations. Individual needs vary based on factors like training intensity, metabolism, and personal preferences. Adjust as needed based on your progress.",
+    "goalPlaceholder": "Select your goal"
+  },
+  "foodSearch": {
+    "title": "Food & Nutrition",
+    "description": "Explore healthy ingredients, workout recipes, and detailed nutrition information",
+    "searchPlaceholder": "Search for a food (e.g., chicken breast, apple)...",
+    "noResults": "No foods found. Try a different search term or category.",
+    "allFoods": "All Foods",
+    "serving": "Serving",
+    "nutritionFacts": "Nutrition Facts",
+    "per100g": "Per 100g",
+    "calories": "Calories",
+    "cal": "cal",
+    "fiber": "Fiber",
+    "items": "items",
+    "showing": "Showing",
+    "ingredients": "Ingredients",
+    "preWorkout": "Pre-Workout",
+    "postWorkout": "Post-Workout",
+    "calorieTable": "Calorie Table",
+    "preWorkoutTitle": "Pre-Workout Recipes",
+    "preWorkoutDescription": "Fuel your training with these energy-boosting meals. Eat 30-120 minutes before exercise for optimal performance.",
+    "postWorkoutTitle": "Post-Workout Recipes",
+    "postWorkoutDescription": "Maximize recovery with these protein-rich meals. Consume within 2 hours after training for best results.",
+    "calorieTableTitle": "Quick Calorie Reference",
+    "calorieTableDescription": "Compare calories and protein content across different food categories for smart meal planning.",
+    "prepTime": "Prep Time",
+    "servings": "Servings",
+    "ingredientsList": "Ingredients",
+    "instructions": "Instructions",
+    "tip": "Tip",
+    "foodName": "Food",
+    "calPerProtein": "Cal/Protein",
+    "quickReference": "Daily Intake Guidelines",
+    "proteinGoal": "Protein Goal",
+    "carbsGoal": "Carbs Goal",
+    "fatsGoal": "Fats Goal",
+    "note": "Note",
+    "noteDescription": "Nutritional values are based on standard serving sizes and may vary based on preparation methods.",
+    "aboutFood": "About Food Search",
+    "aboutDescription": "This tool allows you to search for nutritional information of common foods. Data is based on the USDA National Nutrient Database. Values are shown per 100 grams of food.",
+    "disclaimer": "Disclaimer",
+    "disclaimerDescription": "All nutrition values are approximate and may vary based on preparation methods and specific brands."
+  },
+  "tips": {
+    "seo": {
+      "title": "Fitness Tips for Beginners | FitFusion",
+      "description": "Essential fitness tips and advice for beginners and returning athletes. Learn how to start your fitness journey safely and effectively."
+    },
+    "badge": "For Beginners",
+    "title": "Fitness Tips for Beginners & Returning Athletes",
+    "subtitle": "Your complete guide to starting or restarting your fitness journey with confidence",
+    "whyExercise": {
+      "title": "Why Regular Exercise Matters",
+      "intro": "Regular physical activity is one of the most important things you can do for your health. No matter your age or fitness level, the benefits of exercise are truly transformative."
+    },
+    "benefits": {
+      "cardiovascular": {
+        "title": "Heart Health",
+        "description": "Strengthens your heart, improves circulation, and reduces risk of cardiovascular disease"
+      },
+      "mental": {
+        "title": "Mental Well-being",
+        "description": "Reduces stress, anxiety, and depression while boosting mood and self-confidence"
+      },
+      "strength": {
+        "title": "Physical Strength",
+        "description": "Builds muscle, increases bone density, and improves overall physical capability"
+      },
+      "flexibility": {
+        "title": "Flexibility & Balance",
+        "description": "Enhances mobility, prevents falls, and maintains independence as you age"
+      }
+    },
+    "beginnerTips": {
+      "title": "Essential Tips for Beginners",
+      "intro": "Starting your fitness journey can feel overwhelming, but these simple tips will help you build a strong foundation:",
+      "tip1": "Start where you are - Don't compare yourself to others. Every expert was once a beginner. Your journey is unique to you.",
+      "tip2": "Consistency beats intensity - It's better to do a moderate workout regularly than an intense workout once in a while. Aim for sustainable progress.",
+      "tip3": "Listen to your body - Some muscle soreness is normal, but sharp pain is a warning sign. Rest when needed and don't push through pain.",
+      "tip4": "Celebrate small wins - Did you work out today? That's a victory! Progress isn't always visible on the scale or in the mirror.",
+      "tip5": "Make it enjoyable - Choose activities you actually like. Exercise shouldn't feel like punishment. Dance, swim, hike, or play sports you enjoy."
+    },
+    "buildingRoutine": {
+      "title": "Building Your Fitness Routine",
+      "intro": "Creating a sustainable fitness routine is key to long-term success. Here's how to build one that works for you:"
+    },
+    "routine": {
+      "step1": {
+        "title": "Start Slowly and Progress Gradually",
+        "description": "Begin with 2-3 short sessions per week (even 10-15 minutes counts!). Gradually increase duration and intensity over weeks and months. This prevents burnout and injury."
+      },
+      "step2": {
+        "title": "Set Realistic, Specific Goals",
+        "description": "Instead of 'get fit,' try 'walk 20 minutes three times a week' or 'do 10 push-ups.' Specific goals give you clear targets to work toward and celebrate."
+      },
+      "step3": {
+        "title": "Schedule Your Workouts",
+        "description": "Treat exercise like an important appointment. Put it in your calendar and protect that time. Morning workouts can be great for consistency."
+      },
+      "step4": {
+        "title": "Mix Different Types of Exercise",
+        "description": "Include cardio (walking, running, cycling), strength training (bodyweight or weights), and flexibility work (stretching, yoga) for balanced fitness."
+      },
+      "step5": {
+        "title": "Track Your Progress",
+        "description": "Keep a simple log of your workouts. Seeing your consistency and improvements over time is incredibly motivating and helps you stay accountable."
+      }
+    },
+    "injury": {
+      "title": "Injury Prevention & Proper Form",
+      "intro": "Staying injury-free is crucial for maintaining your fitness journey. Follow these guidelines to exercise safely:",
+      "injury1": "Always warm up for 5-10 minutes with light cardio and dynamic stretching before your workout to prepare your muscles.",
+      "injury2": "Focus on proper form over heavy weights or high intensity. If you're unsure, watch instructional videos or consider working with a trainer initially.",
+      "injury3": "Cool down after exercise with gentle stretching. This helps reduce muscle soreness and improves flexibility over time.",
+      "injury4": "Progress gradually - increase workout intensity or duration by no more than 10% per week to give your body time to adapt."
+    },
+    "recovery": {
+      "title": "Rest, Recovery & Nutrition",
+      "intro": "Recovery is just as important as exercise itself. Your body gets stronger during rest, not during the workout:",
+      "recovery1": "Get 7-9 hours of quality sleep each night. This is when your body repairs and builds muscle. Poor sleep undermines your fitness efforts.",
+      "recovery2": "Take at least 1-2 rest days per week. Rest days don't mean being completely sedentary - light walking or gentle yoga is great.",
+      "recovery3": "Fuel your body with balanced nutrition. Include plenty of protein for muscle repair, complex carbs for energy, and healthy fats for overall health.",
+      "recovery4": "Stay hydrated throughout the day, not just during exercise. Water is essential for every bodily function and optimal performance."
+    },
+    "motivation": {
+      "title": "You've Got This!",
+      "message": "Remember, starting is the hardest part. Every workout is an investment in your future self. Be patient with yourself, stay consistent, and celebrate every step forward. You're capable of more than you think!",
+      "quote": "The journey of a thousand miles begins with a single step. Take that step today."
+    }
+  },
+  "supplements": {
+    "seo": {
+      "title": "Supplement Guide & Recommendations | FitFusion",
+      "description": "Evidence-based supplement recommendations based on your age, weight, and fitness goals. Learn about safe supplementation and which supplements to avoid."
+    },
+    "badge": "Educational Guide",
+    "title": "Dietary Supplement Guide",
+    "subtitle": "Personalized supplement recommendations based on your body weight, age, and fitness goals",
+    "disclaimer": {
+      "title": "Important Medical Disclaimer:",
+      "message": "This tool provides general educational information only. Always consult with a qualified healthcare provider before starting any supplement regimen, especially if you have existing health conditions, take medications, are pregnant, or breastfeeding."
+    },
+    "calculator": {
+      "title": "Get Your Personalized Recommendations",
+      "description": "Enter your information to receive supplement suggestions tailored to your needs"
+    },
+    "importantNote": {
+      "title": "Before You Start",
+      "point1": "Supplements are meant to complement, not replace, a balanced diet and healthy lifestyle.",
+      "point2": "Quality matters - choose reputable brands with third-party testing (USP, NSF, or Informed-Sport certified).",
+      "point3": "More is not better - stick to recommended dosages to avoid potential side effects."
+    },
+    "yourRecommendations": "Your Personalized Supplement Recommendations",
+    "recommendationsDescription": "Based on your profile, here are evidence-based supplement suggestions. Remember to consult your doctor before starting any new supplements.",
+    "priority": {
+      "essential": "Essential",
+      "beneficial": "Beneficial",
+      "optional": "Optional"
+    },
+    "dosageLabel": "Recommended Dosage",
+    "timingLabel": "Best Timing",
+    "benefitsLabel": "Benefits",
+    "typicalDosageLabel": "Typical Dosage",
+    "bestForLabel": "Best For",
+    "recommendations": {
+      "protein": {
+        "name": "Protein Powder",
+        "dosage": "{{amount}}g daily total protein (including food)",
+        "timing": "Post-workout or throughout the day to meet protein targets"
+      },
+      "creatine": {
+        "name": "Creatine Monohydrate",
+        "dosage": "3-5g daily",
+        "timing": "Any time of day, consistency matters more than timing"
+      },
+      "multivitamin": {
+        "name": "Quality Multivitamin",
+        "dosage": "1 serving daily as per product label",
+        "timing": "With a meal for better absorption"
+      },
+      "omega3": {
+        "name": "Omega-3 Fish Oil",
+        "dosage": "1-3g EPA+DHA daily",
+        "timing": "With meals to reduce fishy aftertaste"
+      },
+      "vitaminD": {
+        "name": "Vitamin D3",
+        "dosage": "1000-2000 IU daily (or as recommended by your doctor)",
+        "timing": "With a meal containing fat for optimal absorption"
+      },
+      "calcium": {
+        "name": "Calcium Supplement",
+        "dosage": "500-1000mg daily (consider dietary intake first)",
+        "timing": "Split doses throughout the day with meals"
+      },
+      "bcaa": {
+        "name": "BCAAs (Branched-Chain Amino Acids)",
+        "dosage": "5-10g around workouts",
+        "timing": "Before, during, or after intense training sessions"
+      }
+    },
+    "commonSupplements": {
+      "title": "Common Supplements Explained"
+    },
+    "common": {
+      "protein": {
+        "name": "Protein Powder",
+        "benefits": "Supports muscle recovery and growth, convenient way to meet daily protein needs, aids in satiety during weight loss",
+        "dosage": "20-40g per serving, 1-3 times daily as needed",
+        "bestFor": "Athletes, those struggling to meet protein targets through food, post-workout recovery"
+      },
+      "creatine": {
+        "name": "Creatine Monohydrate",
+        "benefits": "Improves strength and power output, enhances muscle growth, supports cognitive function, well-researched and safe",
+        "dosage": "3-5g daily (no loading phase needed)",
+        "bestFor": "Strength training, high-intensity exercise, muscle building goals"
+      },
+      "multivitamin": {
+        "name": "Quality Multivitamin",
+        "benefits": "Fills nutritional gaps in your diet, supports overall health, provides antioxidant protection",
+        "dosage": "1 serving daily as directed on label",
+        "bestFor": "Everyone, especially those with restricted diets or limited food variety"
+      },
+      "omega3": {
+        "name": "Omega-3 Fatty Acids",
+        "benefits": "Reduces inflammation, supports heart health, improves brain function, aids joint health",
+        "dosage": "1-3g EPA+DHA combined daily",
+        "bestFor": "Heart health, inflammation reduction, those who don't eat fatty fish regularly"
+      },
+      "vitaminD": {
+        "name": "Vitamin D3",
+        "benefits": "Supports bone health, immune function, mood regulation, muscle function",
+        "dosage": "1000-4000 IU daily (get levels tested)",
+        "bestFor": "Those with limited sun exposure, older adults, people in northern climates"
+      },
+      "preworkout": {
+        "name": "Pre-Workout Supplement",
+        "benefits": "Increases energy and focus, improves workout performance, enhances endurance",
+        "dosage": "1 serving 20-30 minutes before training",
+        "bestFor": "Intense training sessions, early morning workouts (use cautiously)"
+      }
+    },
+    "safety": {
+      "title": "Supplement Safety Guidelines",
+      "intro": "Follow these essential safety tips to supplement responsibly:",
+      "tip1": "Read labels carefully - Check for third-party certification (USP, NSF, Informed-Sport) to ensure quality and purity. Avoid proprietary blends that don't disclose exact amounts.",
+      "tip2": "Start with one supplement at a time - This helps you identify any adverse reactions and understand what works for your body.",
+      "tip3": "Respect recommended dosages - More is not better. Excessive intake can cause side effects and waste money. Fat-soluble vitamins (A, D, E, K) can build up to toxic levels.",
+      "tip4": "Consider timing and interactions - Some supplements interact with medications or other supplements. Take calcium and iron separately, as they compete for absorption.",
+      "tip5": "Store properly and check expiration dates - Keep supplements in a cool, dry place away from direct sunlight. Discard expired products as potency decreases over time."
+    },
+    "avoid": {
+      "title": "Supplements to Avoid or Use with Extreme Caution",
+      "intro": "These supplements are often unnecessary, potentially harmful, or lack scientific evidence:",
+      "avoid1": "Weight loss pills and 'fat burners' - Often contain stimulants that can be dangerous, unproven ingredients, or are simply ineffective. Focus on diet and exercise instead.",
+      "avoid2": "Anabolic steroids and prohormones - Illegal without prescription, serious health risks including liver damage, heart problems, and hormonal imbalances.",
+      "avoid3": "Mega-dose vitamins - Taking vitamins far above the recommended daily intake can be toxic (especially vitamins A, D, E, K) and may increase health risks.",
+      "avoid4": "Unregulated supplements from unknown sources - Products bought from unreliable websites or containing exotic ingredients may be contaminated, mislabeled, or contain banned substances."
+    },
+    "finalNote": {
+      "title": "Remember: Food First, Supplements Second",
+      "message": "The best nutrition comes from a varied, balanced diet rich in whole foods. Supplements are meant to fill specific gaps, not replace healthy eating. Prioritize quality sleep, regular exercise, stress management, and whole foods before turning to supplements."
+    }
+  },
+  "errors": {
+    "pageNotFound": "Page Not Found",
+    "pageNotFoundDescription": "The page you're looking for doesn't exist or has been moved."
+  },
+  "actions": {
+    "goBack": "Go Back"
+  }
+}

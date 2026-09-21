@@ -1,0 +1,686 @@
+{
+  "common": {
+    "appName": "FitFusion",
+    "readMore": "Leer más",
+    "backToBlog": "Volver al blog",
+    "viewAll": "Ver todo",
+    "search": "Buscar",
+    "searchPlaceholder": "Buscar artículos...",
+    "showingArticles": "Mostrando {{count}} artículos",
+    "minuteRead": "{{minutes}} min de lectura",
+    "loading": "Cargando...",
+    "calculate": "Calcular",
+    "calculateNow": "Calcular ahora",
+    "reset": "Restablecer",
+    "downloadPdf": "Descargar PDF"
+  },
+  "references": {
+    "title": "Referencias científicas",
+    "description": "Los cálculos y las recomendaciones se basan en investigaciones revisadas por pares y en las directrices de las siguientes fuentes autorizadas:"
+  },
+  "backToTop": "Volver arriba",
+  "authorBio": {
+    "label": "Sobre el autor",
+    "credentials": "Especialista certificado en fitness y nutrición",
+    "bio": "Nuestro equipo de contenido incluye entrenadores personales certificados, dietistas registrados y especialistas en nutrición deportiva comprometidos a brindar orientación de salud y fitness precisa y respaldada por la ciencia."
+  },
+  "share": {
+    "title": "Compartir:",
+    "facebook": "Compartir en Facebook",
+    "twitter": "Compartir en Twitter",
+    "linkedin": "Compartir en LinkedIn",
+    "pinterest": "Compartir en Pinterest",
+    "whatsapp": "Compartir en WhatsApp",
+    "native": "Compartir vía...",
+    "copyLink": "Copiar enlace",
+    "copied": "¡Enlace copiado!"
+  },
+  "nav": {
+    "home": "Inicio",
+    "calculators": "Calculadoras",
+    "blog": "Blog",
+    "foodSearch": "Búsqueda de alimentos",
+    "tips": "Consejos de fitness",
+    "supplements": "Suplementos"
+  },
+  "hero": {
+    "title": "Conoce tus números. Planifica tu nutrición.",
+    "subtitle": "Calculadoras gratuitas de IMC, calorías diarias y macros — basadas en fórmulas publicadas, con explicaciones claras de lo que significan tus resultados.",
+    "ctaCalculate": "Prueba las calculadoras",
+    "ctaLearn": "Mira cómo funciona"
+  },
+  "home": {
+    "benefits": {
+      "title": "Por qué la gente usa FitFusion",
+      "subtitle": "Herramientas simples que respetan tu tiempo, tus datos y la evidencia",
+      "free": {
+        "title": "Gratis y sin registro",
+        "description": "Todas las herramientas funcionan al instante en tu navegador. Sin cuenta, sin muros de pago, sin funciones bloqueadas."
+      },
+      "science": {
+        "title": "Basado en fórmulas publicadas",
+        "description": "Los cálculos usan la ecuación de Mifflin-St Jeor, las clasificaciones de IMC de la OMS y los datos nutricionales del USDA."
+      },
+      "privacy": {
+        "title": "Privado por diseño",
+        "description": "Tus medidas nunca salen de tu dispositivo: nada de lo que escribes en una calculadora se guarda ni se comparte."
+      },
+      "guidance": {
+        "title": "Resultados con contexto",
+        "description": "Cada número viene con una explicación en lenguaje claro, para que sepas qué significa y qué hacer después."
+      }
+    },
+    "howItWorks": {
+      "title": "Cómo funciona",
+      "subtitle": "Tres pasos de la pregunta a la respuesta — en menos de un minuto",
+      "step1": {
+        "title": "Elige una herramienta",
+        "description": "Escoge la calculadora que responde a tu pregunta: categoría de peso, calorías diarias u objetivos de macros."
+      },
+      "step2": {
+        "title": "Ingresa tus datos",
+        "description": "Añade tu altura, peso, edad y nivel de actividad. Todo se queda en tu dispositivo."
+      },
+      "step3": {
+        "title": "Obtén tus números",
+        "description": "Ve tu resultado al instante, con una explicación de lo que significa y los siguientes pasos sensatos."
+      }
+    },
+    "food": {
+      "title": "Consulta lo que comes",
+      "description": "Busca la información nutricional de alimentos cotidianos —calorías, proteínas, carbohidratos y grasas por 100 g— y explora recetas sencillas para antes y después de entrenar.",
+      "bullet1": "Datos nutricionales por 100 g, basados en la base de datos del USDA",
+      "bullet2": "Ideas de recetas para antes y después de entrenar",
+      "bullet3": "Tabla rápida de comparación de calorías por categoría de alimentos",
+      "cta": "Explorar la base de datos de alimentos"
+    },
+    "supplements": {
+      "title": "Suplementos, sin exageraciones",
+      "description": "Responde unas preguntas sobre tu edad, peso y objetivo de entrenamiento para ver qué suplementos tienen evidencia real detrás — y cuáles puedes saltarte.",
+      "bullet1": "Personalizado según tu edad, peso y objetivo",
+      "bullet2": "Clasificados por evidencia: esenciales, beneficiosos, opcionales",
+      "bullet3": "Pautas claras de dosis y momento de toma para cada uno",
+      "cta": "Obtener orientación sobre suplementos"
+    },
+    "finalCta": {
+      "title": "Empieza con un solo número",
+      "subtitle": "Calcular tu objetivo de calorías diarias toma menos de un minuto. Empieza ahí y luego afina con los macros.",
+      "ctaPrimary": "Calcular mis calorías diarias",
+      "ctaSecondary": "Ver todas las calculadoras"
+    }
+  },
+  "calculators": {
+    "title": "Nuestras calculadoras de fitness",
+    "subtitle": "Cinco herramientas gratuitas que cubren lo esencial: categoría de peso, metabolismo, calorías diarias, macros y nutrición de alimentos",
+    "bmi": {
+      "title": "Calculadora de IMC",
+      "description": "Calcula tu Índice de Masa Corporal y comprende tu categoría de peso"
+    },
+    "bmr": {
+      "title": "Calculadora de TMB",
+      "description": "Descubre tu Tasa Metabólica Basal - calorías quemadas en reposo"
+    },
+    "calories": {
+      "title": "Calorías diarias",
+      "description": "Descubre cuántas calorías necesitas según tu nivel de actividad"
+    },
+    "macros": {
+      "title": "Macronutrientes",
+      "description": "Obtén recomendaciones personalizadas de macronutrientes para tus objetivos"
+    },
+    "food": {
+      "title": "Búsqueda de alimentos",
+      "description": "Consulta información nutricional de miles de alimentos"
+    }
+  },
+  "scientificFormulas": {
+    "title": "Basado en ciencia establecida",
+    "subtitle": "Las mismas fórmulas que usan dietistas y organizaciones de salud: nada propietario, nada inventado",
+    "note": "FitFusion es una herramienta educativa. No sustituye el consejo de tu médico o dietista.",
+    "mifflin": {
+      "title": "Ecuación de Mifflin-St Jeor",
+      "description": "Estándar de oro para el cálculo de TMB, recomendado por profesionales de la nutrición"
+    },
+    "who": {
+      "title": "Directrices de la OMS",
+      "description": "Clasificaciones de IMC basadas en los estándares de la Organización Mundial de la Salud"
+    },
+    "usda": {
+      "title": "Base de datos USDA",
+      "description": "Datos nutricionales completos de alimentos de fuentes gubernamentales confiables"
+    }
+  },
+  "blog": {
+    "title": "Blog de salud y fitness",
+    "subtitle": "Perspectivas de expertos sobre nutrición, entrenamientos y bienestar",
+    "latestArticles": "Últimos artículos de salud y fitness",
+    "categories": {
+      "all": "Todos",
+      "nutrition": "Nutrición",
+      "workouts": "Entrenamientos",
+      "wellness": "Bienestar"
+    },
+    "by": "Por",
+    "noResults": "No se encontraron artículos. Intenta ajustar tu búsqueda o filtro.",
+    "enjoyedArticle": "¿Disfrutaste este artículo? ¡Compártelo con otros!",
+    "relatedToolsTitle": "Ponlo en práctica",
+    "tagsLabel": "Etiquetas:",
+    "featured": "Destacado",
+    "updatedOn": "Actualizado: {{date}}",
+    "relatedArticles": "Artículos relacionados",
+    "readArticle": "Leer artículo"
+  },
+  "newsletter": {
+    "title": "Mantente fuerte, mantente informado.",
+    "subtitle": "Ciencia de la nutrición, consejos de entrenamiento y nuevas calculadoras cada semana, directo a tu bandeja de entrada.",
+    "placeholder": "tu@ejemplo.com",
+    "emailLabel": "Correo electrónico",
+    "subscribe": "Suscribirse",
+    "subscribing": "Suscribiendo…",
+    "privacy": "Respetamos tu privacidad. Cancela cuando quieras: sin spam, jamás.",
+    "successTitle": "¡Estás dentro!",
+    "successDescription": "Revisa tu bandeja de entrada para confirmar la suscripción.",
+    "alreadyTitle": "¡Bienvenido de nuevo!",
+    "alreadyDescription": "Este correo ya está en nuestra lista.",
+    "errorTitle": "Algo salió mal",
+    "errorDescription": "Por favor, inténtalo de nuevo en un momento.",
+    "thankYouTitle": "¡Gracias por suscribirte!",
+    "thankYouDescription": "Recibirás nuestro próximo boletín muy pronto."
+  },
+  "seo": {
+    "home": {
+      "title": "FitFusion - Calculadoras de fitness y nutrición gratis y basadas en ciencia",
+      "description": "Calculadoras gratuitas de IMC, TMB, calorías diarias y macros. Recomendaciones personalizadas de suplementos y consejos de nutrición de expertos.",
+      "keywords": "calculadora IMC, calculadora TMB, calculadora de calorías, calculadora de macros, calculadora de fitness, nutrición, pérdida de peso, ganancia muscular"
+    },
+    "blog": {
+      "title": "Blog y artículos - Nutrición, entrenamiento y bienestar en FitFusion",
+      "description": "Artículos basados en evidencia sobre nutrición, entrenamiento, suplementos y bienestar, escritos por profesionales de la salud certificados.",
+      "keywords": "artículos de nutrición, blog de fitness, consejos de entrenamiento, guía de bienestar, alimentación saludable, planes de entrenamiento"
+    }
+  },
+  "footer": {
+    "tagline": "Calculadoras de fitness respaldadas por la ciencia para tu viaje de salud",
+    "calculators": "Calculadoras",
+    "resources": "Recursos",
+    "blogArticles": "Blog y artículos",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "contact": "Contacto",
+    "disclaimer": "La información proporcionada en este sitio web tiene únicamente fines informativos y no debe considerarse como asesoramiento profesional. Como cada individuo es único, la aplicabilidad de la información puede variar. Recomendamos buscar asesoramiento personalizado para situaciones específicas.",
+    "copyright": "© {{year}} FitFusion. Todos los derechos reservados."
+  },
+  "aboutPage": {
+    "seoTitle": "Sobre Nosotros - Calculadoras de Fitness y Nutrición FitFusion",
+    "seoDescription": "Conoce la misión de FitFusion: hacer que las herramientas de fitness y nutrición respaldadas por la ciencia sean gratuitas y accesibles para todos, en varios idiomas.",
+    "badge": "Quiénes Somos",
+    "title": "Acerca de FitFusion",
+    "subtitle": "Herramientas de fitness respaldadas por la ciencia, gratis para todos",
+    "missionTitle": "Nuestra Misión",
+    "missionP1": "FitFusion nació con un objetivo simple: dar a todos acceso gratuito a calculadoras de fitness y nutrición precisas y basadas en la ciencia. Ya sea que estés comenzando tu viaje de fitness, controlando tu peso o afinando tu rendimiento deportivo, entender los números de tu cuerpo es el primer paso hacia decisiones informadas.",
+    "missionP2": "Creemos que la información de salud debe ser clara, honesta y estar disponible en tu propio idioma. Por eso FitFusion está completamente disponible en inglés, húngaro y español — y pronto en más idiomas.",
+    "whatTitle": "Lo Que Ofrecemos",
+    "whatIntro": "Todas nuestras herramientas se basan en fórmulas científicas revisadas por pares y son completamente gratuitas:",
+    "what1": "Calculadoras de IMC, TMB, calorías diarias (TDEE) y macronutrientes basadas en fórmulas establecidas como Mifflin-St Jeor",
+    "what2": "Una guía de suplementos personalizada según tus objetivos y estilo de vida",
+    "what3": "Artículos basados en evidencia sobre nutrición, entrenamiento y bienestar",
+    "what4": "Consejos prácticos de fitness tanto para principiantes como para atletas experimentados",
+    "valuesTitle": "Nuestros Valores",
+    "accuracyTitle": "Precisión",
+    "accuracyText": "Cada calculadora utiliza fórmulas establecidas y revisadas por pares. Citamos nuestros métodos y nunca inventamos números.",
+    "accessibilityTitle": "Accesibilidad",
+    "accessibilityText": "Herramientas gratuitas, varios idiomas, diseño adaptado a móviles y sin necesidad de cuenta — información de salud para todos.",
+    "transparencyTitle": "Transparencia",
+    "transparencyText": "Somos claros sobre lo que nuestras herramientas pueden y no pueden hacer. Las calculadoras informan — nunca reemplazan el consejo médico profesional.",
+    "disclaimerTitle": "Una Nota Sobre Consejos de Salud",
+    "disclaimerText": "FitFusion ofrece herramientas e información educativas, no consejo médico. Consulta siempre a un profesional de la salud cualificado antes de hacer cambios significativos en tu dieta, rutina de ejercicio o uso de suplementos."
+  },
+  "privacyPage": {
+    "seoTitle": "Política de Privacidad - FitFusion",
+    "seoDescription": "Cómo maneja FitFusion tus datos: qué recopilamos, cómo lo usamos y tus derechos. Mantenemos la recopilación de datos al mínimo.",
+    "title": "Política de Privacidad",
+    "updated": "Última actualización: julio de 2026",
+    "intro": "Tu privacidad nos importa. Esta política explica qué información recopila FitFusion, cómo la usamos y las opciones que tienes. En resumen: recopilamos lo menos posible.",
+    "dataTitle": "Información Que Recopilamos",
+    "dataText": "Los datos que introduces en las calculadoras (como altura, peso y edad) se procesan completamente en tu navegador y nunca se envían ni se almacenan en nuestros servidores. La única información personal que almacenamos es tu dirección de correo electrónico, y solo si te suscribes voluntariamente a nuestro boletín.",
+    "useTitle": "Cómo Usamos Tu Información",
+    "useText": "Si te suscribes a nuestro boletín, usamos tu dirección de correo electrónico únicamente para enviarte nuestro boletín con ciencia de la nutrición, consejos de entrenamiento y novedades. Nunca vendemos, alquilamos ni compartimos tu correo electrónico con terceros con fines de marketing.",
+    "newsletterTitle": "Boletín y Cancelación de Suscripción",
+    "newsletterText": "Puedes cancelar tu suscripción al boletín en cualquier momento. Una vez que canceles, dejaremos de enviarte correos.",
+    "cookiesTitle": "Cookies y Almacenamiento Local",
+    "cookiesText": "Usamos el almacenamiento local de tu navegador para recordar tus preferencias, como el idioma y el tema claro/oscuro. Estos datos permanecen en tu dispositivo. No usamos cookies publicitarias ni de seguimiento entre sitios.",
+    "thirdPartyTitle": "Servicios de Terceros",
+    "thirdPartyText": "Nuestro sitio web está alojado en infraestructura en la nube que puede registrar datos técnicos básicos (como direcciones IP) por motivos de seguridad y fiabilidad. Los botones de compartir en redes sociales solo contactan con la plataforma correspondiente cuando haces clic activamente en ellos.",
+    "rightsTitle": "Tus Derechos",
+    "rightsText": "Tienes derecho a acceder, corregir o eliminar los datos personales que tenemos sobre ti (tu correo electrónico del boletín). Para ejercer estos derechos, contáctanos a través de los canales indicados en nuestra página de Contacto y te responderemos con prontitud.",
+    "changesTitle": "Cambios en Esta Política",
+    "changesText": "Podemos actualizar esta política ocasionalmente. Cualquier cambio se publicará en esta página con una fecha de revisión actualizada."
+  },
+  "contactPage": {
+    "seoTitle": "Contacto - FitFusion",
+    "seoDescription": "Ponte en contacto con el equipo de FitFusion. Escríbenos a info@fit-fusion.eu, contáctanos por Instagram o suscríbete a nuestro boletín para recibir novedades.",
+    "badge": "Contáctanos",
+    "title": "Contacto",
+    "subtitle": "¿Preguntas, comentarios o ideas? Nos encantaría saber de ti.",
+    "instagramTitle": "Escríbenos por Instagram",
+    "emailTitle": "Escríbenos por Correo",
+    "emailText": "¿Prefieres el correo electrónico? Envíanos un mensaje cuando quieras y te responderemos lo antes posible.",
+    "instagramText": "La forma más rápida de contactarnos es por mensaje directo en Instagram. Estamos activos allí y solemos responder en pocos días.",
+    "instagramCta": "Sigue a @fitfusion25eu",
+    "newsletterTitle": "Mantente Informado",
+    "newsletterText": "Suscríbete a nuestro boletín más abajo para recibir novedades, nuevas calculadoras y contenido de fitness basado en evidencia.",
+    "topicsTitle": "¿En Qué Podemos Ayudarte?",
+    "topic1": "Preguntas sobre cómo funcionan nuestras calculadoras",
+    "topic2": "Comentarios y sugerencias de nuevas herramientas o funciones",
+    "topic3": "Reportar un error o un problema de traducción",
+    "topic4": "Consultas de colaboración y asociación",
+    "noteTitle": "Ten en Cuenta",
+    "noteText": "No podemos ofrecer consejos médicos o nutricionales personalizados. Para orientación específica sobre tu salud, consulta a un profesional cualificado."
+  },
+  "bmiCalculator": {
+    "title": "Calculadora de IMC",
+    "description": "Calcula tu Índice de Masa Corporal (IMC) para comprender tu categoría de peso y estado de salud",
+    "inputTitle": "Ingresa tu información",
+    "height": "Altura",
+    "heightCm": "Altura (cm)",
+    "heightFt": "Altura (pies)",
+    "heightIn": "Altura (pulgadas)",
+    "weight": "Peso",
+    "weightKg": "Peso (kg)",
+    "weightLbs": "Peso (lbs)",
+    "unit": "Unidad",
+    "metric": "Métrico",
+    "imperial": "Imperial",
+    "yourBMI": "Tu IMC",
+    "category": "Categoría",
+    "underweight": "Bajo peso",
+    "normalWeight": "Peso normal",
+    "overweight": "Sobrepeso",
+    "obese": "Obeso",
+    "enterInfo": "Ingresa tu información y haz clic en Calcular",
+    "underweightDescription": "Tienes bajo peso. Considera consultar a un profesional de la salud sobre estrategias saludables para ganar peso.",
+    "normalWeightDescription": "Tienes un peso saludable. Mantén tu estilo de vida actual con una nutrición equilibrada y ejercicio regular.",
+    "overweightDescription": "Tienes sobrepeso. Considera una dieta equilibrada y mayor actividad física para alcanzar un peso más saludable.",
+    "obeseDescription": "Estás en la categoría de obesidad. Consulta a un profesional de la salud para un plan personalizado de control de peso.",
+    "aboutBMI": "Acerca del IMC",
+    "aboutDescription": "El Índice de Masa Corporal (IMC) es una medida de grasa corporal basada en la altura y el peso. Se utiliza como herramienta de detección para identificar posibles problemas de peso. Sin embargo, el IMC no es diagnóstico y debe usarse junto con otras evaluaciones de salud.",
+    "categories": "Categorías de IMC",
+    "categoryUnderweight": "Bajo peso: IMC < 18,5",
+    "categoryNormal": "Peso normal: IMC 18,5–24,9",
+    "categoryOverweight": "Sobrepeso: IMC 25–29,9",
+    "categoryObese": "Obeso: IMC ≥ 30",
+    "limitations": "Limitaciones",
+    "limitationsDescription": "El IMC no tiene en cuenta la masa muscular, la densidad ósea, la composición corporal general y las diferencias raciales y de sexo. Los atletas o personas muy musculosas pueden tener un IMC alto sin exceso de grasa corporal."
+  },
+  "bmrCalculator": {
+    "title": "Calculadora de TMB",
+    "description": "Calcula tu Tasa Metabólica Basal (TMB) - las calorías que tu cuerpo quema en reposo",
+    "inputTitle": "Ingresa tu información",
+    "age": "Edad",
+    "ageYears": "Edad (años)",
+    "gender": "Género",
+    "male": "Hombre",
+    "female": "Mujer",
+    "yourBMR": "Tu TMB",
+    "caloriesPerDay": "calorías/día",
+    "aboutBMR": "Acerca de la TMB",
+    "aboutDescription": "La Tasa Metabólica Basal (TMB) es el número de calorías que tu cuerpo necesita para realizar sus funciones más básicas (basales) de mantenimiento de la vida. Este cálculo utiliza la ecuación de Mifflin-St Jeor, que se considera la fórmula más precisa para la mayoría de las personas.",
+    "formula": "La fórmula",
+    "formulaMale": "Hombres: TMB = (10 × peso en kg) + (6,25 × altura en cm) - (5 × edad en años) + 5",
+    "formulaFemale": "Mujeres: TMB = (10 × peso en kg) + (6,25 × altura en cm) - (5 × edad en años) - 161",
+    "whatItMeans": "Qué significa esto",
+    "whatItMeansDescription": "Este es el número mínimo de calorías que tu cuerpo necesita para funcionar en reposo completo. Tus necesidades calóricas diarias reales serán más altas según tu nivel de actividad.",
+    "gauge": {
+      "low": "Bajo",
+      "belowAvg": "Bajo promedio",
+      "average": "Promedio",
+      "aboveAvg": "Sobre promedio",
+      "high": "Alto"
+    },
+    "quickReference": "Referencia rápida",
+    "sedentary": "Sedentario (poco ejercicio)",
+    "lightExercise": "Ejercicio ligero (1-3 días)",
+    "moderate": "Moderado (3-5 días)",
+    "veryActive": "Muy activo (6-7 días)",
+    "additionalInfo": "Tu TMB representa aproximadamente el 60-75% de tu gasto energético diario total. Factores como la masa muscular, la genética y las hormonas pueden afectar tu TMB real. Para conocer tus necesidades calóricas diarias totales, debes multiplicar tu TMB por el factor de tu nivel de actividad."
+  },
+  "calorieCalculator": {
+    "title": "Calculadora de calorías diarias",
+    "description": "Calcula tus necesidades calóricas diarias según tu nivel de actividad y objetivos",
+    "inputTitle": "Ingresa tu información",
+    "activityLevel": "Nivel de actividad",
+    "sedentary": "Sedentario (poco o ningún ejercicio)",
+    "lightlyActive": "Ligeramente activo (ejercicio ligero 1-3 días/semana)",
+    "moderatelyActive": "Moderadamente activo (ejercicio moderado 3-5 días/semana)",
+    "veryActive": "Muy activo (ejercicio intenso 6-7 días/semana)",
+    "extraActive": "Extra activo (ejercicio muy intenso y trabajo físico)",
+    "goal": "Objetivo",
+    "maintain": "Mantener peso",
+    "loseWeight": "Perder peso (0,5 kg/semana)",
+    "gainWeight": "Ganar peso (0,5 kg/semana)",
+    "yourResults": "Tus necesidades calóricas diarias",
+    "dailyCalories": "Calorías diarias",
+    "resultDescription": "Según tu nivel de actividad, necesitas aproximadamente {calories} calorías al día para mantener tu peso actual.",
+    "goalBased": "Recomendaciones según tu objetivo",
+    "weightLoss": "Pérdida de peso",
+    "deficitDescription": "Déficit de 500 calorías para perder ~0,5 kg por semana",
+    "maintenance": "Mantenimiento",
+    "maintainWeight": "Mantener el peso actual",
+    "muscleGain": "Ganancia muscular",
+    "surplusDescription": "Superávit de 300 calorías para ganancias limpias",
+    "targetCalories": "Calorías objetivo",
+    "aboutCalories": "Acerca de las calorías diarias",
+    "aboutDescription": "Tus necesidades calóricas diarias dependen de tu TMB (calculada usando la ecuación de Mifflin-St Jeor) multiplicada por tu nivel de actividad. Para perder peso, necesitas un déficit calórico; para ganar peso, necesitas un superávit.",
+    "activityMultipliers": "Multiplicadores de actividad",
+    "multiplierSedentary": "Sedentario: TMB × 1,2",
+    "multiplierLight": "Ligeramente activo: TMB × 1,375",
+    "multiplierModerate": "Moderadamente activo: TMB × 1,55",
+    "multiplierVery": "Muy activo: TMB × 1,725",
+    "multiplierExtra": "Extra activo: TMB × 1,9",
+    "safeWeightLoss": "Pérdida de peso segura",
+    "safeWeightLossDescription": "Una tasa segura de pérdida de peso es de 0,5-1 kg por semana, lo que requiere un déficit de 500-1000 calorías por día. Perder peso demasiado rápido puede provocar pérdida muscular y otros problemas de salud.",
+    "selectActivity": "Selecciona el nivel de actividad"
+  },
+  "macroCalculator": {
+    "title": "Calculadora de macronutrientes",
+    "description": "Calcula tu ingesta óptima de proteínas, carbohidratos y grasas para tus objetivos de fitness",
+    "inputTitle": "Ingresa tu información",
+    "dailyCalorieTarget": "Objetivo de calorías diarias",
+    "useCalculator": "Usa la calculadora de calorías diarias para encontrar tu objetivo",
+    "fitnessGoal": "Objetivo fitness",
+    "macros": "Macros",
+    "weightLoss": "Pérdida de peso",
+    "maintenance": "Mantenimiento",
+    "muscleGain": "Ganancia muscular",
+    "yourMacros": "Tus macronutrientes diarios",
+    "resultDescription": "Estos objetivos de macronutrientes están optimizados para tu objetivo de {goal}. Registra tu ingesta diaria para asegurarte de cumplir estos objetivos y lograr los mejores resultados.",
+    "macroSplit": "División de macros",
+    "balanced": "Equilibrado (40% carbohidratos, 30% proteína, 30% grasa)",
+    "lowCarb": "Bajo en carbohidratos (20% carbohidratos, 40% proteína, 40% grasa)",
+    "highProtein": "Alto en proteínas (30% carbohidratos, 40% proteína, 30% grasa)",
+    "ketogenic": "Cetogénico (5% carbohidratos, 25% proteína, 70% grasa)",
+    "protein": "Proteína",
+    "carbs": "Carbohidratos",
+    "fat": "Grasa",
+    "grams": "gramos",
+    "aboutMacros": "Acerca de los macronutrientes",
+    "aboutDescription": "Los macronutrientes (macros) son los nutrientes que tu cuerpo necesita en grandes cantidades: proteínas, carbohidratos y grasas. Cada uno proporciona energía (calorías) y desempeña funciones únicas en tu salud y fitness.",
+    "macroRoles": "Funciones de los macros",
+    "proteinRole": "Proteína (4 cal/g): Construye y repara tejidos, apoya el crecimiento muscular",
+    "carbsRole": "Carbohidratos (4 cal/g): Fuente de energía principal para tu cuerpo y cerebro",
+    "fatRole": "Grasa (9 cal/g): Apoya la producción de hormonas, absorción de nutrientes, energía",
+    "choosingSplit": "Elegir tu división",
+    "choosingSplitDescription": "Tu división de macros ideal depende de tus objetivos, nivel de actividad y preferencias personales. Los atletas pueden necesitar más carbohidratos, mientras que aquellos en dietas bajas en carbohidratos priorizan las proteínas y las grasas.",
+    "goalPlaceholder": "Selecciona tu objetivo"
+  },
+  "foodSearch": {
+    "title": "Alimentos y Nutrición",
+    "description": "Explora ingredientes saludables, recetas de entrenamiento e información nutricional detallada",
+    "searchPlaceholder": "Busca un alimento (ej. pechuga de pollo, manzana)...",
+    "noResults": "No se encontraron alimentos. Intenta un término de búsqueda o categoría diferente.",
+    "allFoods": "Todos los alimentos",
+    "serving": "Porción",
+    "nutritionFacts": "Información nutricional",
+    "per100g": "Por 100g",
+    "calories": "Calorías",
+    "cal": "cal",
+    "fiber": "Fibra",
+    "items": "artículos",
+    "showing": "Mostrando",
+    "ingredients": "Ingredientes",
+    "preWorkout": "Pre-Entreno",
+    "postWorkout": "Post-Entreno",
+    "calorieTable": "Tabla de Calorías",
+    "preWorkoutTitle": "Recetas Pre-Entrenamiento",
+    "preWorkoutDescription": "Alimenta tu entrenamiento con estas comidas energizantes. Come 30-120 minutos antes del ejercicio para un rendimiento óptimo.",
+    "postWorkoutTitle": "Recetas Post-Entrenamiento",
+    "postWorkoutDescription": "Maximiza la recuperación con estas comidas ricas en proteínas. Consume dentro de 2 horas después del entrenamiento para mejores resultados.",
+    "calorieTableTitle": "Referencia Rápida de Calorías",
+    "calorieTableDescription": "Compara calorías y contenido de proteínas en diferentes categorías de alimentos para una planificación inteligente de comidas.",
+    "prepTime": "Tiempo de prep",
+    "servings": "Porciones",
+    "ingredientsList": "Ingredientes",
+    "instructions": "Instrucciones",
+    "tip": "Consejo",
+    "foodName": "Alimento",
+    "calPerProtein": "Cal/Proteína",
+    "quickReference": "Guías de Ingesta Diaria",
+    "proteinGoal": "Meta de Proteína",
+    "carbsGoal": "Meta de Carbohidratos",
+    "fatsGoal": "Meta de Grasas",
+    "note": "Nota",
+    "noteDescription": "Los valores nutricionales se basan en tamaños de porción estándar y pueden variar según los métodos de preparación.",
+    "aboutFood": "Acerca de la búsqueda de alimentos",
+    "aboutDescription": "Esta herramienta te permite buscar información nutricional de alimentos comunes. Los datos se basan en la Base de Datos Nacional de Nutrientes del USDA. Los valores se muestran por cada 100 gramos de alimento.",
+    "disclaimer": "Descargo de responsabilidad",
+    "disclaimerDescription": "Los valores nutricionales pueden variar según el método de preparación, marca y fuente. Usa esto como una guía general."
+  },
+  "tips": {
+    "seo": {
+      "title": "Consejos de Fitness para Principiantes | FitFusion",
+      "description": "Consejos y asesoramiento esenciales de fitness para principiantes y atletas que regresan. Aprende cómo comenzar tu viaje de fitness de forma segura y efectiva."
+    },
+    "badge": "Para Principiantes",
+    "title": "Consejos de Fitness para Principiantes y Atletas que Regresan",
+    "subtitle": "Tu guía completa para comenzar o reiniciar tu viaje de fitness con confianza",
+    "whyExercise": {
+      "title": "Por Qué Importa el Ejercicio Regular",
+      "intro": "La actividad física regular es una de las cosas más importantes que puedes hacer por tu salud. Sin importar tu edad o nivel de fitness, los beneficios del ejercicio son verdaderamente transformadores."
+    },
+    "benefits": {
+      "cardiovascular": {
+        "title": "Salud del Corazón",
+        "description": "Fortalece tu corazón, mejora la circulación y reduce el riesgo de enfermedades cardiovasculares"
+      },
+      "mental": {
+        "title": "Bienestar Mental",
+        "description": "Reduce el estrés, la ansiedad y la depresión mientras mejora el estado de ánimo y la autoconfianza"
+      },
+      "strength": {
+        "title": "Fuerza Física",
+        "description": "Construye músculo, aumenta la densidad ósea y mejora la capacidad física general"
+      },
+      "flexibility": {
+        "title": "Flexibilidad y Equilibrio",
+        "description": "Mejora la movilidad, previene caídas y mantiene la independencia a medida que envejeces"
+      }
+    },
+    "beginnerTips": {
+      "title": "Consejos Esenciales para Principiantes",
+      "intro": "Comenzar tu viaje de fitness puede parecer abrumador, pero estos simples consejos te ayudarán a construir una base sólida:",
+      "tip1": "Comienza donde estás - No te compares con otros. Cada experto fue una vez un principiante. Tu viaje es único para ti.",
+      "tip2": "La consistencia supera la intensidad - Es mejor hacer un entrenamiento moderado regularmente que un entrenamiento intenso de vez en cuando. Apunta al progreso sostenible.",
+      "tip3": "Escucha a tu cuerpo - Algo de dolor muscular es normal, pero el dolor agudo es una señal de advertencia. Descansa cuando sea necesario y no empujes a través del dolor.",
+      "tip4": "Celebra pequeñas victorias - ¿Hiciste ejercicio hoy? ¡Esa es una victoria! El progreso no siempre es visible en la báscula o en el espejo.",
+      "tip5": "Hazlo divertido - Elige actividades que realmente te gusten. El ejercicio no debe sentirse como un castigo. Baila, nada, camina o practica deportes que disfrutes."
+    },
+    "buildingRoutine": {
+      "title": "Construyendo Tu Rutina de Fitness",
+      "intro": "Crear una rutina de fitness sostenible es clave para el éxito a largo plazo. Así es como construir una que funcione para ti:"
+    },
+    "routine": {
+      "step1": {
+        "title": "Comienza Despacio y Progresa Gradualmente",
+        "description": "Comienza con 2-3 sesiones cortas por semana (¡incluso 10-15 minutos cuenta!). Aumenta gradualmente la duración e intensidad durante semanas y meses. Esto previene el agotamiento y las lesiones."
+      },
+      "step2": {
+        "title": "Establece Objetivos Realistas y Específicos",
+        "description": "En lugar de 'ponerse en forma', prueba 'caminar 20 minutos tres veces por semana' o 'hacer 10 flexiones'. Los objetivos específicos te dan metas claras para trabajar y celebrar."
+      },
+      "step3": {
+        "title": "Programa Tus Entrenamientos",
+        "description": "Trata el ejercicio como una cita importante. Ponlo en tu calendario y protege ese tiempo. Los entrenamientos matutinos pueden ser excelentes para la consistencia."
+      },
+      "step4": {
+        "title": "Mezcla Diferentes Tipos de Ejercicio",
+        "description": "Incluye cardio (caminar, correr, andar en bicicleta), entrenamiento de fuerza (peso corporal o pesas) y trabajo de flexibilidad (estiramiento, yoga) para un fitness equilibrado."
+      },
+      "step5": {
+        "title": "Sigue Tu Progreso",
+        "description": "Mantén un registro simple de tus entrenamientos. Ver tu consistencia y mejoras con el tiempo es increíblemente motivador y te ayuda a mantenerte responsable."
+      }
+    },
+    "injury": {
+      "title": "Prevención de Lesiones y Forma Adecuada",
+      "intro": "Mantenerse libre de lesiones es crucial para mantener tu viaje de fitness. Sigue estas pautas para hacer ejercicio de forma segura:",
+      "injury1": "Siempre calienta durante 5-10 minutos con cardio ligero y estiramiento dinámico antes de tu entrenamiento para preparar tus músculos.",
+      "injury2": "Enfócate en la forma adecuada sobre pesas pesadas o alta intensidad. Si no estás seguro, mira videos instructivos o considera trabajar con un entrenador inicialmente.",
+      "injury3": "Enfría después del ejercicio con estiramientos suaves. Esto ayuda a reducir el dolor muscular y mejora la flexibilidad con el tiempo.",
+      "injury4": "Progresa gradualmente - aumenta la intensidad o duración del entrenamiento en no más del 10% por semana para dar tiempo a tu cuerpo a adaptarse."
+    },
+    "recovery": {
+      "title": "Descanso, Recuperación y Nutrición",
+      "intro": "La recuperación es tan importante como el ejercicio mismo. Tu cuerpo se fortalece durante el descanso, no durante el entrenamiento:",
+      "recovery1": "Duerme 7-9 horas de sueño de calidad cada noche. Es cuando tu cuerpo repara y construye músculo. El mal sueño socava tus esfuerzos de fitness.",
+      "recovery2": "Toma al menos 1-2 días de descanso por semana. Los días de descanso no significan ser completamente sedentario - caminar ligero o yoga suave es genial.",
+      "recovery3": "Alimenta tu cuerpo con nutrición equilibrada. Incluye mucha proteína para la reparación muscular, carbohidratos complejos para energía y grasas saludables para la salud general.",
+      "recovery4": "Mantente hidratado durante todo el día, no solo durante el ejercicio. El agua es esencial para cada función corporal y rendimiento óptimo."
+    },
+    "motivation": {
+      "title": "¡Tú Puedes Hacerlo!",
+      "message": "Recuerda, comenzar es la parte más difícil. Cada entrenamiento es una inversión en tu yo futuro. Sé paciente contigo mismo, mantén la consistencia y celebra cada paso adelante. ¡Eres capaz de más de lo que piensas!",
+      "quote": "El viaje de mil millas comienza con un solo paso. Da ese paso hoy."
+    }
+  },
+  "supplements": {
+    "seo": {
+      "title": "Guía de Suplementos y Recomendaciones | FitFusion",
+      "description": "Recomendaciones de suplementos basadas en evidencia según tu edad, peso y objetivos de fitness. Aprende sobre suplementación segura y qué suplementos evitar."
+    },
+    "badge": "Guía Educativa",
+    "title": "Guía de Suplementos Dietéticos",
+    "subtitle": "Recomendaciones de suplementos personalizadas basadas en tu peso corporal, edad y objetivos de fitness",
+    "disclaimer": {
+      "title": "Importante Descargo de Responsabilidad Médica:",
+      "message": "Esta herramienta proporciona solo información educativa general. Siempre consulta con un proveedor de atención médica calificado antes de comenzar cualquier régimen de suplementos, especialmente si tienes condiciones de salud existentes, tomas medicamentos, estás embarazada o amamantando."
+    },
+    "calculator": {
+      "title": "Obtén Tus Recomendaciones Personalizadas",
+      "description": "Ingresa tu información para recibir sugerencias de suplementos adaptadas a tus necesidades"
+    },
+    "importantNote": {
+      "title": "Antes de Comenzar",
+      "point1": "Los suplementos están destinados a complementar, no reemplazar, una dieta equilibrada y un estilo de vida saludable.",
+      "point2": "La calidad importa - elige marcas de buena reputación con pruebas de terceros (certificadas USP, NSF o Informed-Sport).",
+      "point3": "Más no es mejor - adhiérete a las dosis recomendadas para evitar posibles efectos secundarios."
+    },
+    "yourRecommendations": "Tus Recomendaciones de Suplementos Personalizadas",
+    "recommendationsDescription": "Basado en tu perfil, aquí hay sugerencias de suplementos basadas en evidencia. Recuerda consultar a tu médico antes de comenzar cualquier suplemento nuevo.",
+    "priority": {
+      "essential": "Esencial",
+      "beneficial": "Beneficioso",
+      "optional": "Opcional"
+    },
+    "dosageLabel": "Dosis Recomendada",
+    "timingLabel": "Mejor Momento",
+    "benefitsLabel": "Beneficios",
+    "typicalDosageLabel": "Dosis Típica",
+    "bestForLabel": "Mejor Para",
+    "recommendations": {
+      "protein": {
+        "name": "Proteína en Polvo",
+        "dosage": "{{amount}}g de proteína total diaria (incluyendo alimentos)",
+        "timing": "Post-entrenamiento o durante el día para cumplir objetivos de proteína"
+      },
+      "creatine": {
+        "name": "Monohidrato de Creatina",
+        "dosage": "3-5g diarios",
+        "timing": "Cualquier momento del día, la consistencia importa más que el momento"
+      },
+      "multivitamin": {
+        "name": "Multivitamínico de Calidad",
+        "dosage": "1 porción diaria según la etiqueta del producto",
+        "timing": "Con una comida para mejor absorción"
+      },
+      "omega3": {
+        "name": "Aceite de Pescado Omega-3",
+        "dosage": "1-3g EPA+DHA diarios",
+        "timing": "Con las comidas para reducir el regusto a pescado"
+      },
+      "vitaminD": {
+        "name": "Vitamina D3",
+        "dosage": "1000-2000 UI diarias (o según lo recomendado por tu médico)",
+        "timing": "Con una comida que contenga grasa para absorción óptima"
+      },
+      "calcium": {
+        "name": "Suplemento de Calcio",
+        "dosage": "500-1000mg diarios (considera primero la ingesta dietética)",
+        "timing": "Divide las dosis durante el día con las comidas"
+      },
+      "bcaa": {
+        "name": "BCAAs (Aminoácidos de Cadena Ramificada)",
+        "dosage": "5-10g alrededor de los entrenamientos",
+        "timing": "Antes, durante o después de sesiones de entrenamiento intensas"
+      }
+    },
+    "commonSupplements": {
+      "title": "Suplementos Comunes Explicados"
+    },
+    "common": {
+      "protein": {
+        "name": "Proteína en Polvo",
+        "benefits": "Apoya la recuperación y el crecimiento muscular, forma conveniente de satisfacer las necesidades diarias de proteínas, ayuda en la saciedad durante la pérdida de peso",
+        "dosage": "20-40g por porción, 1-3 veces al día según sea necesario",
+        "bestFor": "Atletas, aquellos que luchan por alcanzar objetivos de proteínas a través de alimentos, recuperación post-entrenamiento"
+      },
+      "creatine": {
+        "name": "Monohidrato de Creatina",
+        "benefits": "Mejora la fuerza y la potencia de salida, mejora el crecimiento muscular, apoya la función cognitiva, bien investigado y seguro",
+        "dosage": "3-5g diarios (no se necesita fase de carga)",
+        "bestFor": "Entrenamiento de fuerza, ejercicio de alta intensidad, objetivos de construcción muscular"
+      },
+      "multivitamin": {
+        "name": "Multivitamínico de Calidad",
+        "benefits": "Llena vacíos nutricionales en tu dieta, apoya la salud general, proporciona protección antioxidante",
+        "dosage": "1 porción diaria según lo indicado en la etiqueta",
+        "bestFor": "Todos, especialmente aquellos con dietas restringidas o variedad limitada de alimentos"
+      },
+      "omega3": {
+        "name": "Ácidos Grasos Omega-3",
+        "benefits": "Reduce la inflamación, apoya la salud cardíaca, mejora la función cerebral, ayuda a la salud articular",
+        "dosage": "1-3g EPA+DHA combinados diarios",
+        "bestFor": "Salud cardíaca, reducción de inflamación, aquellos que no comen pescado graso regularmente"
+      },
+      "vitaminD": {
+        "name": "Vitamina D3",
+        "benefits": "Apoya la salud ósea, función inmune, regulación del estado de ánimo, función muscular",
+        "dosage": "1000-4000 UI diarias (haz que prueben tus niveles)",
+        "bestFor": "Aquellos con exposición solar limitada, adultos mayores, personas en climas del norte"
+      },
+      "preworkout": {
+        "name": "Suplemento Pre-Entrenamiento",
+        "benefits": "Aumenta la energía y el enfoque, mejora el rendimiento del entrenamiento, mejora la resistencia",
+        "dosage": "1 porción 20-30 minutos antes del entrenamiento",
+        "bestFor": "Sesiones de entrenamiento intensas, entrenamientos matutinos (usa con precaución)"
+      }
+    },
+    "safety": {
+      "title": "Pautas de Seguridad de Suplementos",
+      "intro": "Sigue estos consejos de seguridad esenciales para suplementarte responsablemente:",
+      "tip1": "Lee las etiquetas cuidadosamente - Verifica la certificación de terceros (USP, NSF, Informed-Sport) para asegurar calidad y pureza. Evita mezclas propietarias que no revelen cantidades exactas.",
+      "tip2": "Comienza con un suplemento a la vez - Esto te ayuda a identificar cualquier reacción adversa y comprender qué funciona para tu cuerpo.",
+      "tip3": "Respeta las dosis recomendadas - Más no es mejor. La ingesta excesiva puede causar efectos secundarios y desperdiciar dinero. Las vitaminas liposolubles (A, D, E, K) pueden acumularse a niveles tóxicos.",
+      "tip4": "Considera el momento y las interacciones - Algunos suplementos interactúan con medicamentos u otros suplementos. Toma calcio y hierro por separado, ya que compiten por la absorción.",
+      "tip5": "Almacena adecuadamente y verifica fechas de vencimiento - Mantén los suplementos en un lugar fresco y seco lejos de la luz solar directa. Descarta productos vencidos ya que la potencia disminuye con el tiempo."
+    },
+    "avoid": {
+      "title": "Suplementos a Evitar o Usar con Extrema Precaución",
+      "intro": "Estos suplementos a menudo son innecesarios, potencialmente dañinos o carecen de evidencia científica:",
+      "avoid1": "Pastillas para adelgazar y 'quemadores de grasa' - A menudo contienen estimulantes que pueden ser peligrosos, ingredientes no probados, o simplemente son ineficaces. Enfócate en la dieta y el ejercicio en su lugar.",
+      "avoid2": "Esteroides anabólicos y prohormonas - Ilegales sin receta, riesgos graves para la salud incluyendo daño hepático, problemas cardíacos y desequilibrios hormonales.",
+      "avoid3": "Vitaminas en megadosis - Tomar vitaminas muy por encima de la ingesta diaria recomendada puede ser tóxico (especialmente vitaminas A, D, E, K) y puede aumentar los riesgos para la salud.",
+      "avoid4": "Suplementos no regulados de fuentes desconocidas - Los productos comprados en sitios web no confiables o que contienen ingredientes exóticos pueden estar contaminados, mal etiquetados o contener sustancias prohibidas."
+    },
+    "finalNote": {
+      "title": "Recuerda: Primero la Comida, Segundo los Suplementos",
+      "message": "La mejor nutrición proviene de una dieta variada y equilibrada rica en alimentos integrales. Los suplementos están destinados a llenar vacíos específicos, no a reemplazar la alimentación saludable. Prioriza el sueño de calidad, el ejercicio regular, el manejo del estrés y los alimentos integrales antes de recurrir a los suplementos."
+    }
+  },
+  "errors": {
+    "pageNotFound": "Página no encontrada",
+    "pageNotFoundDescription": "La página que buscas no existe o ha sido movida."
+  },
+  "actions": {
+    "goBack": "Volver"
+  }
+}

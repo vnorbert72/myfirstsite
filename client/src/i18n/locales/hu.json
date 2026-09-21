@@ -1,0 +1,686 @@
+{
+  "common": {
+    "appName": "FitFusion",
+    "readMore": "Tovább olvasom",
+    "backToBlog": "Vissza a bloghoz",
+    "viewAll": "Összes megtekintése",
+    "search": "Keresés",
+    "searchPlaceholder": "Cikkek keresése...",
+    "showingArticles": "{{count}} cikk megjelenítése",
+    "minuteRead": "{{minutes}} perc olvasás",
+    "loading": "Betöltés...",
+    "calculate": "Számítás",
+    "calculateNow": "Számítás most",
+    "reset": "Visszaállítás",
+    "downloadPdf": "PDF letöltése"
+  },
+  "references": {
+    "title": "Tudományos hivatkozások",
+    "description": "A számítások és ajánlások szakértői által lektorált kutatásokon és az alábbi mértékadó források irányelvein alapulnak:"
+  },
+  "backToTop": "Vissza az elejére",
+  "authorBio": {
+    "label": "A szerzőről",
+    "credentials": "Okleveles fitnesz- és táplálkozási szakértő",
+    "bio": "Tartalmi csapatunk okleveles személyi edzőkből, dietetikusokból és sporttáplálkozási szakemberekből áll, akik pontos, tudományosan megalapozott egészség- és fitnesztanácsadást nyújtanak."
+  },
+  "share": {
+    "title": "Megosztás:",
+    "facebook": "Megosztás Facebookon",
+    "twitter": "Megosztás Twitteren",
+    "linkedin": "Megosztás LinkedInen",
+    "pinterest": "Megosztás Pinteresten",
+    "whatsapp": "Megosztás WhatsAppon",
+    "native": "Megosztás...",
+    "copyLink": "Link másolása",
+    "copied": "Link másolva!"
+  },
+  "nav": {
+    "home": "Kezdőlap",
+    "calculators": "Kalkulátorok",
+    "blog": "Blog",
+    "foodSearch": "Étel keresés",
+    "tips": "Fitnesz tippek",
+    "supplements": "Kiegészítők"
+  },
+  "hero": {
+    "title": "Ismerd meg a számaidat. Tervezd meg a táplálkozásod.",
+    "subtitle": "Ingyenes BMI-, kalória- és makrókalkulátorok — publikált képletekre építve, érthető magyarázattal arról, mit jelentenek az eredményeid.",
+    "ctaCalculate": "Próbáld ki a kalkulátorokat",
+    "ctaLearn": "Nézd meg, hogyan működik"
+  },
+  "home": {
+    "benefits": {
+      "title": "Miért használják a FitFusiont?",
+      "subtitle": "Egyszerű eszközök, amelyek tisztelik az idődet, az adataidat és a tudományos bizonyítékokat",
+      "free": {
+        "title": "Ingyenes, regisztráció nélkül",
+        "description": "Minden eszköz azonnal működik a böngésződben. Nincs fiók, nincs fizetőfal, nincsenek zárolt funkciók."
+      },
+      "science": {
+        "title": "Publikált képletekre építve",
+        "description": "A számítások a Mifflin-St Jeor egyenletet, a WHO BMI-besorolásait és az USDA táplálkozási adatait használják."
+      },
+      "privacy": {
+        "title": "Alapból privát",
+        "description": "A méreteid nem hagyják el az eszközödet — semmit nem tárolunk és nem osztunk meg abból, amit a kalkulátorokba beírsz."
+      },
+      "guidance": {
+        "title": "Eredmények kontextussal",
+        "description": "Minden számhoz közérthető magyarázat tartozik, így pontosan tudod, mit jelent és mi a következő lépés."
+      }
+    },
+    "howItWorks": {
+      "title": "Hogyan működik",
+      "subtitle": "Három lépés a kérdéstől a válaszig — kevesebb mint egy perc alatt",
+      "step1": {
+        "title": "Válassz eszközt",
+        "description": "Válaszd ki a kérdésedhez illő kalkulátort — testsúlykategória, napi kalória vagy makrócélok."
+      },
+      "step2": {
+        "title": "Add meg az adataidat",
+        "description": "Írd be a magasságod, súlyod, korod és aktivitási szinted. Minden az eszközödön marad."
+      },
+      "step3": {
+        "title": "Kapd meg a számaidat",
+        "description": "Az eredményt azonnal látod, magyarázattal arról, mit jelent és mik az észszerű következő lépések."
+      }
+    },
+    "food": {
+      "title": "Nézd meg, mit eszel",
+      "description": "Keresd ki hétköznapi ételek tápértékét — kalória, fehérje, szénhidrát és zsír 100 grammonként —, és böngéssz egyszerű edzés előtti és utáni receptek között.",
+      "bullet1": "Tápértékadatok 100 grammra vetítve, az USDA adatbázisa alapján",
+      "bullet2": "Edzés előtti és utáni receptötletek",
+      "bullet3": "Gyors kalória-összehasonlító táblázat ételkategóriák szerint",
+      "cta": "Böngészd az ételadatbázist"
+    },
+    "supplements": {
+      "title": "Étrend-kiegészítők, túlzások nélkül",
+      "description": "Válaszolj néhány kérdésre a korodról, súlyodról és edzéscélodról, és megtudod, mely kiegészítők mögött van valódi bizonyíték — és melyeket hagyhatod ki nyugodtan.",
+      "bullet1": "Korod, súlyod és célod alapján személyre szabva",
+      "bullet2": "Bizonyítékok szerint rangsorolva: alapvető, hasznos, opcionális",
+      "bullet3": "Egyértelmű adagolási és időzítési útmutató mindegyikhez",
+      "cta": "Kérj kiegészítő-útmutatót"
+    },
+    "finalCta": {
+      "title": "Kezdd egyetlen számmal",
+      "subtitle": "A napi kalóriacélod kiszámítása kevesebb mint egy percet vesz igénybe. Kezdd ott, aztán finomhangold a makrókkal.",
+      "ctaPrimary": "Kiszámolom a napi kalóriáimat",
+      "ctaSecondary": "Összes kalkulátor megtekintése"
+    }
+  },
+  "calculators": {
+    "title": "Fitnesz kalkulátoraink",
+    "subtitle": "Öt ingyenes eszköz a lényegre: testsúlykategória, anyagcsere, napi kalória, makrók és tápértékek",
+    "bmi": {
+      "title": "BMI kalkulátor",
+      "description": "Számítsd ki a testtömeg-indexedet és értsd meg a súly-kategóriádat"
+    },
+    "bmr": {
+      "title": "BMR kalkulátor",
+      "description": "Fedezd fel az alapanyagcserédet - a nyugalomban elégetett kalóriákat"
+    },
+    "calories": {
+      "title": "Napi kalória",
+      "description": "Tudd meg, hány kalóriára van szükséged az aktivitási szinted alapján"
+    },
+    "macros": {
+      "title": "Makrotápanyagok",
+      "description": "Kapj személyre szabott makrotápanyag-ajánlásokat a céljaidhoz"
+    },
+    "food": {
+      "title": "Étel keresés",
+      "description": "Nézd meg több ezer étel tápértékadatait"
+    }
+  },
+  "scientificFormulas": {
+    "title": "Bevált tudományra építve",
+    "subtitle": "Ugyanazok a képletek, amelyeket dietetikusok és egészségügyi szervezetek is használnak — semmi titkos, semmi kitalált",
+    "note": "A FitFusion oktatási célú eszköz. Nem helyettesíti az orvosod vagy dietetikusod tanácsát.",
+    "mifflin": {
+      "title": "Mifflin-St Jeor egyenlet",
+      "description": "Arany standard a BMR számításhoz, táplálkozási szakemberek által ajánlott"
+    },
+    "who": {
+      "title": "WHO irányelvek",
+      "description": "BMI besorolások az Egészségügyi Világszervezet szabványai alapján"
+    },
+    "usda": {
+      "title": "USDA adatbázis",
+      "description": "Átfogó élelmiszer-táplálkozási adatok megbízható kormányzati forrásokból"
+    }
+  },
+  "blog": {
+    "title": "Egészség és fitnesz blog",
+    "subtitle": "Szakértői betekintés a táplálkozásba, edzésekbe és jóllétbe",
+    "latestArticles": "Legújabb egészség és fitnesz cikkek",
+    "categories": {
+      "all": "Összes",
+      "nutrition": "Táplálkozás",
+      "workouts": "Edzések",
+      "wellness": "Jóllét"
+    },
+    "by": "Szerző:",
+    "noResults": "Nincs találat. Próbáld módosítani a keresést vagy a szűrőt.",
+    "enjoyedArticle": "Tetszett a cikk? Oszd meg másokkal!",
+    "relatedToolsTitle": "Ültesd át a gyakorlatba",
+    "tagsLabel": "Címkék:",
+    "featured": "Kiemelt",
+    "updatedOn": "Frissítve: {{date}}",
+    "relatedArticles": "Kapcsolódó cikkek",
+    "readArticle": "Cikk elolvasása"
+  },
+  "newsletter": {
+    "title": "Maradj erős, légy tájékozott.",
+    "subtitle": "Heti táplálkozástudomány, edzéstippek és új kalkulátorok – egyenesen a postaládádba.",
+    "placeholder": "te@pelda.com",
+    "emailLabel": "E-mail cím",
+    "subscribe": "Feliratkozás",
+    "subscribing": "Feliratkozás…",
+    "privacy": "Tiszteletben tartjuk az adataidat. Bármikor leiratkozhatsz – soha nem küldünk spamet.",
+    "successTitle": "Sikeres feliratkozás!",
+    "successDescription": "Nézd meg a postafiókodat a megerősítéshez.",
+    "alreadyTitle": "Üdv újra!",
+    "alreadyDescription": "Ez az e-mail cím már szerepel a listánkon.",
+    "errorTitle": "Valami hiba történt",
+    "errorDescription": "Kérjük, próbáld újra egy pillanat múlva.",
+    "thankYouTitle": "Köszönjük a feliratkozást!",
+    "thankYouDescription": "Hamarosan megkapod a következő hírlevelünket."
+  },
+  "seo": {
+    "home": {
+      "title": "FitFusion - Ingyenes tudományalapú fitnesz- és táplálkozási kalkulátorok",
+      "description": "Ingyenes kalkulátorok BMI, alapanyagcsere, napi kalória és makrók kiszámításához. Személyre szabott étrend-kiegészítő tanácsok és táplálkozási tippek.",
+      "keywords": "BMI kalkulátor, BMR kalkulátor, kalória kalkulátor, makró kalkulátor, fitnesz kalkulátor, táplálkozás, fogyás, izomtömeg"
+    },
+    "blog": {
+      "title": "Blog és cikkek - FitFusion táplálkozási, edzési és wellness útmutatók",
+      "description": "Tudományosan megalapozott cikkek táplálkozásról, edzésről, étrend-kiegészítőkről és wellnessről – tanúsított szakértők által írva.",
+      "keywords": "táplálkozási cikkek, fitnesz blog, edzéstippek, wellness útmutató, egészséges étkezés, edzéstervek"
+    }
+  },
+  "footer": {
+    "tagline": "Tudományos alapú fitnesz kalkulátorok az egészséges életmódodhoz",
+    "calculators": "Kalkulátorok",
+    "resources": "Források",
+    "blogArticles": "Blog és cikkek",
+    "about": "Rólunk",
+    "privacy": "Adatvédelmi szabályzat",
+    "contact": "Kapcsolat",
+    "disclaimer": "A weboldalon található információk kizárólag tájékoztató jellegűek, és nem tekinthetők szakmai tanácsnak. Mivel minden egyén egyedi, az információk alkalmazhatósága változhat. Személyre szabott tanácsért javasoljuk, hogy forduljon szakemberhez.",
+    "copyright": "© {{year}} FitFusion. Minden jog fenntartva."
+  },
+  "aboutPage": {
+    "seoTitle": "Rólunk - FitFusion fitnesz és táplálkozási kalkulátorok",
+    "seoDescription": "Ismerd meg a FitFusion küldetését: tudományos alapú fitnesz- és táplálkozási eszközök ingyenesen, több nyelven, mindenki számára.",
+    "badge": "Kik vagyunk",
+    "title": "A FitFusionról",
+    "subtitle": "Tudományos alapú fitnesz eszközök, ingyen mindenkinek",
+    "missionTitle": "Küldetésünk",
+    "missionP1": "A FitFusion egyetlen egyszerű céllal jött létre: hogy mindenki ingyenesen hozzáférjen pontos, tudományos alapú fitnesz- és táplálkozási kalkulátorokhoz. Akár most kezded a fitnesz utadat, akár a testsúlyodat kezeled vagy a sportteljesítményedet finomhangolod, a tested számainak megértése az első lépés a megalapozott döntések felé.",
+    "missionP2": "Hisszük, hogy az egészséggel kapcsolatos információknak érthetőnek, őszintének és a saját nyelveden elérhetőnek kell lenniük. Ezért a FitFusion teljes egészében elérhető angolul, magyarul és spanyolul — és a lista bővülni fog.",
+    "whatTitle": "Amit kínálunk",
+    "whatIntro": "Minden eszközünk lektorált tudományos képleteken alapul, és teljesen ingyenesen használható:",
+    "what1": "BMI, BMR, napi kalória (TDEE) és makrotápanyag kalkulátorok, bevált képletekre építve, mint a Mifflin-St Jeor",
+    "what2": "Személyre szabott étrend-kiegészítő útmutató a céljaid és életmódod alapján",
+    "what3": "Bizonyítékokon alapuló cikkek táplálkozásról, edzésről és wellnessről",
+    "what4": "Gyakorlati fitnesz tippek kezdőknek és tapasztalt sportolóknak egyaránt",
+    "valuesTitle": "Értékeink",
+    "accuracyTitle": "Pontosság",
+    "accuracyText": "Minden kalkulátor bevált, lektorált képleteket használ. Hivatkozunk a módszereinkre, és soha nem találunk ki számokat.",
+    "accessibilityTitle": "Hozzáférhetőség",
+    "accessibilityText": "Ingyenes eszközök, több nyelv, mobilbarát dizájn, regisztráció nélkül — egészségügyi betekintés mindenkinek.",
+    "transparencyTitle": "Átláthatóság",
+    "transparencyText": "Világosan kommunikáljuk, mire képesek az eszközeink és mire nem. A kalkulátorok tájékoztatnak — soha nem helyettesítik a szakszerű orvosi tanácsot.",
+    "disclaimerTitle": "Megjegyzés az egészségügyi tanácsokról",
+    "disclaimerText": "A FitFusion oktatási eszközöket és információkat nyújt, nem orvosi tanácsot. Mielőtt jelentős változtatásokat vezetnél be az étrendedben, edzésrutinodban vagy étrend-kiegészítő használatodban, mindig konzultálj képzett egészségügyi szakemberrel."
+  },
+  "privacyPage": {
+    "seoTitle": "Adatvédelmi szabályzat - FitFusion",
+    "seoDescription": "Hogyan kezeli a FitFusion az adataidat: mit gyűjtünk, hogyan használjuk fel, és milyen jogaid vannak. Minimális adatgyűjtésre törekszünk.",
+    "title": "Adatvédelmi szabályzat",
+    "updated": "Utolsó frissítés: 2026. július",
+    "intro": "Fontos számunkra az adataid védelme. Ez a szabályzat elmagyarázza, milyen adatokat gyűjt a FitFusion, hogyan használjuk fel őket, és milyen választási lehetőségeid vannak. Röviden: a lehető legkevesebbet gyűjtjük.",
+    "dataTitle": "Milyen adatokat gyűjtünk",
+    "dataText": "A kalkulátorokba beírt adatok (például magasság, testsúly és életkor) teljes egészében a böngésződben kerülnek feldolgozásra, és soha nem kerülnek elküldésre vagy tárolásra a szervereinken. Az egyetlen személyes adat, amit tárolunk, az e-mail címed — és csak akkor, ha önként feliratkozol a hírlevelünkre.",
+    "useTitle": "Hogyan használjuk az adataidat",
+    "useText": "Ha feliratkozol a hírlevelünkre, az e-mail címedet kizárólag arra használjuk, hogy elküldjük a hírlevelünket táplálkozástudományi tartalmakkal, edzési tippekkel és újdonságokkal. Soha nem adjuk el, nem adjuk bérbe és nem osztjuk meg az e-mail címedet harmadik felekkel marketing célokra.",
+    "newsletterTitle": "Hírlevél és leiratkozás",
+    "newsletterText": "Bármikor leiratkozhatsz a hírlevelünkről. A leiratkozás után nem küldünk több e-mailt.",
+    "cookiesTitle": "Sütik és helyi tárolás",
+    "cookiesText": "A böngésződ helyi tárolóját használjuk a beállításaid megjegyzésére, például a nyelv és a világos/sötét téma választásodra. Ezek az adatok az eszközödön maradnak. Nem használunk hirdetési vagy oldalakon átívelő nyomkövető sütiket.",
+    "thirdPartyTitle": "Harmadik féltől származó szolgáltatások",
+    "thirdPartyText": "Weboldalunk felhő-infrastruktúrán fut, amely biztonsági és megbízhatósági okokból alapvető technikai adatokat (például IP-címeket) naplózhat. A közösségi megosztás gombok csak akkor lépnek kapcsolatba az adott platformmal, ha aktívan rájuk kattintasz.",
+    "rightsTitle": "Jogaid",
+    "rightsText": "Jogod van hozzáférni az általunk tárolt személyes adataidhoz (a hírlevél e-mail címedhez), helyesbíteni vagy törölni azokat. E jogok gyakorlásához vedd fel velünk a kapcsolatot a Kapcsolat oldalon felsorolt csatornákon, és hamarosan válaszolunk.",
+    "changesTitle": "A szabályzat módosításai",
+    "changesText": "Ezt a szabályzatot időről időre frissíthetjük. A változásokat ezen az oldalon tesszük közzé, frissített dátummal."
+  },
+  "contactPage": {
+    "seoTitle": "Kapcsolat - FitFusion",
+    "seoDescription": "Lépj kapcsolatba a FitFusion csapatával. Írj nekünk e-mailt az info@fit-fusion.eu címre, elérsz minket Instagramon, vagy iratkozz fel hírlevelünkre a frissítésekért.",
+    "badge": "Lépj kapcsolatba",
+    "title": "Kapcsolat",
+    "subtitle": "Kérdésed, visszajelzésed vagy ötleted van? Örömmel halljuk!",
+    "instagramTitle": "Írj nekünk Instagramon",
+    "emailTitle": "Írj nekünk e-mailt",
+    "emailText": "Az e-mailt részesíted előnyben? Írj nekünk bármikor, és amint tudunk, válaszolunk.",
+    "instagramText": "A leggyorsabban Instagram privát üzenetben érsz el minket. Aktívak vagyunk ott, és általában néhány napon belül válaszolunk.",
+    "instagramCta": "Kövesd: @fitfusion25eu",
+    "newsletterTitle": "Maradj képben",
+    "newsletterText": "Iratkozz fel alább a hírlevelünkre, hogy megkapd a frissítéseket, az új kalkulátorokat és a bizonyítékokon alapuló fitnesz tartalmakat.",
+    "topicsTitle": "Miben segíthetünk?",
+    "topic1": "Kérdések a kalkulátoraink működéséről",
+    "topic2": "Visszajelzés és javaslatok új eszközökre vagy funkciókra",
+    "topic3": "Hiba vagy fordítási probléma jelentése",
+    "topic4": "Partnerségi és együttműködési megkeresések",
+    "noteTitle": "Fontos tudnivaló",
+    "noteText": "Személyre szabott orvosi vagy táplálkozási tanácsot nem tudunk adni. Az egészségedre vonatkozó konkrét útmutatásért fordulj képzett szakemberhez."
+  },
+  "bmiCalculator": {
+    "title": "BMI kalkulátor",
+    "description": "Számítsd ki a testtömeg-indexedet (BMI), hogy megértsd a súly-kategóriádat és egészségi állapotodat",
+    "inputTitle": "Add meg az adataidat",
+    "height": "Magasság",
+    "heightCm": "Magasság (cm)",
+    "heightFt": "Magasság (láb)",
+    "heightIn": "Magasság (hüvelyk)",
+    "weight": "Súly",
+    "weightKg": "Súly (kg)",
+    "weightLbs": "Súly (font)",
+    "unit": "Mértékegység",
+    "metric": "Metrikus",
+    "imperial": "Angolszász",
+    "yourBMI": "A te BMI-d",
+    "category": "Kategória",
+    "underweight": "Sovány",
+    "normalWeight": "Normális testsúly",
+    "overweight": "Túlsúlyos",
+    "obese": "Elhízott",
+    "enterInfo": "Add meg az adataidat, majd kattints a Számítás gombra",
+    "underweightDescription": "Sovány vagy. Érdemes egészségügyi szakemberrel konzultálnod az egészséges súlygyarapodási stratégiákról.",
+    "normalWeightDescription": "Egészséges testsúlyod van. Tartsd meg a jelenlegi életmódodat kiegyensúlyozott táplálkozással és rendszeres testmozgással.",
+    "overweightDescription": "Túlsúlyos vagy. Érdemes kiegyensúlyozott étrenddel és több testmozgással egészségesebb súlyra törekedned.",
+    "obeseDescription": "Az elhízott kategóriába tartozol. Fordulj egészségügyi szakemberhez személyre szabott súlykezelési tervért.",
+    "aboutBMI": "A BMI-ról",
+    "aboutDescription": "A testtömeg-index (BMI) a testzsír mértéke a magasság és a súly alapján. Szűrőeszközként használják a lehetséges súlyproblémák azonosítására. Azonban a BMI nem diagnosztikai eszköz, és más egészségügyi értékelésekkel együtt kell használni.",
+    "categories": "BMI kategóriák",
+    "categoryUnderweight": "Sovány: BMI < 18,5",
+    "categoryNormal": "Normális testsúly: BMI 18,5–24,9",
+    "categoryOverweight": "Túlsúlyos: BMI 25–29,9",
+    "categoryObese": "Elhízott: BMI ≥ 30",
+    "limitations": "Korlátozások",
+    "limitationsDescription": "A BMI nem veszi figyelembe az izomtömeget, a csontok sűrűségét, az általános testösszetételt és a faji és nemi különbségeket. A sportolók vagy nagyon izmos egyének magas BMI-vel rendelkezhetnek felesleges testzsír nélkül."
+  },
+  "bmrCalculator": {
+    "title": "BMR kalkulátor",
+    "description": "Számítsd ki az alapanyagcserédet (BMR) - a tested által nyugalomban elégetett kalóriákat",
+    "inputTitle": "Add meg az adataidat",
+    "age": "Kor",
+    "ageYears": "Kor (év)",
+    "gender": "Nem",
+    "male": "Férfi",
+    "female": "Nő",
+    "yourBMR": "A te BMR-ed",
+    "caloriesPerDay": "kalória/nap",
+    "aboutBMR": "A BMR-ról",
+    "aboutDescription": "Az alapanyagcsere (BMR) a tested által szükséges kalóriák száma a legalapvetőbb (bazális) életfenntartó funkciók teljesítéséhez. Ez a számítás a Mifflin-St Jeor egyenletet használja, amelyet a legtöbb ember számára a legpontosabb képletnek tartanak.",
+    "formula": "A képlet",
+    "formulaMale": "Férfiak: BMR = (10 × testsúly kg-ban) + (6,25 × magasság cm-ben) - (5 × kor években) + 5",
+    "formulaFemale": "Nők: BMR = (10 × testsúly kg-ban) + (6,25 × magasság cm-ben) - (5 × kor években) - 161",
+    "whatItMeans": "Mit jelent ez",
+    "whatItMeansDescription": "Ez a tested által szükséges minimális kalóriamennyiség a működéshez teljes nyugalomban. A tényleges napi kalóriaszükségleted magasabb lesz az aktivitási szinted alapján.",
+    "gauge": {
+      "low": "Alacsony",
+      "belowAvg": "Átlag alatti",
+      "average": "Átlagos",
+      "aboveAvg": "Átlag feletti",
+      "high": "Magas"
+    },
+    "quickReference": "Gyors áttekintés",
+    "sedentary": "Ülő életmód (kevés mozgás)",
+    "lightExercise": "Könnyű testmozgás (heti 1-3 nap)",
+    "moderate": "Mérsékelt (heti 3-5 nap)",
+    "veryActive": "Nagyon aktív (heti 6-7 nap)",
+    "additionalInfo": "A BMR-ed a teljes napi energiafelhasználásod körülbelül 60-75%-át teszi ki. Az izomtömeg, a genetika és a hormonok befolyásolhatják a tényleges BMR-edet. A teljes napi kalóriaszükséglethez a BMR-edet meg kell szoroznod az aktivitási szintednek megfelelő szorzóval."
+  },
+  "calorieCalculator": {
+    "title": "Napi kalória kalkulátor",
+    "description": "Számítsd ki a napi kalóriaszükségletedet az aktivitási szinted és céljaid alapján",
+    "inputTitle": "Add meg az adataidat",
+    "activityLevel": "Aktivitási szint",
+    "sedentary": "Ülő életmód (kevés vagy semmilyen testmozgás)",
+    "lightlyActive": "Enyhén aktív (könnyű testmozgás 1-3 nap/hét)",
+    "moderatelyActive": "Mérsékelten aktív (közepes testmozgás 3-5 nap/hét)",
+    "veryActive": "Nagyon aktív (kemény testmozgás 6-7 nap/hét)",
+    "extraActive": "Extra aktív (nagyon kemény testmozgás és fizikai munka)",
+    "goal": "Cél",
+    "maintain": "Súly megtartása",
+    "loseWeight": "Fogyás (0,5 kg/hét)",
+    "gainWeight": "Súlygyarapodás (0,5 kg/hét)",
+    "yourResults": "Napi kalória-szükségleteid",
+    "dailyCalories": "Napi kalória",
+    "resultDescription": "Az aktivitási szinted alapján körülbelül {calories} kalóriára van szükséged naponta a jelenlegi súlyod megtartásához.",
+    "goalBased": "Célalapú ajánlások",
+    "weightLoss": "Fogyás",
+    "deficitDescription": "500 kalóriás deficit kb. heti 0,5 kg fogyáshoz",
+    "maintenance": "Fenntartás",
+    "maintainWeight": "Jelenlegi súly megtartása",
+    "muscleGain": "Izomépítés",
+    "surplusDescription": "300 kalóriás többlet a tiszta izomnövekedéshez",
+    "targetCalories": "Célkalória",
+    "aboutCalories": "A napi kalóriákról",
+    "aboutDescription": "A napi kalóriaszükségleted a BMR-edtől (a Mifflin-St Jeor egyenlettel számítva) és az aktivitási szintedtől függ. A fogyáshoz kalóriadeficitre, a súlygyarapodáshoz kalóriatöbbletre van szükség.",
+    "activityMultipliers": "Aktivitási szorzók",
+    "multiplierSedentary": "Ülő életmód: BMR × 1,2",
+    "multiplierLight": "Enyhén aktív: BMR × 1,375",
+    "multiplierModerate": "Mérsékelten aktív: BMR × 1,55",
+    "multiplierVery": "Nagyon aktív: BMR × 1,725",
+    "multiplierExtra": "Extra aktív: BMR × 1,9",
+    "safeWeightLoss": "Biztonságos fogyás",
+    "safeWeightLossDescription": "A biztonságos fogyási ütem 0,5-1 kg hetente, amihez 500-1000 kalóriás deficit szükséges naponta. A túl gyors fogyás izomvesztéshez és egyéb egészségügyi problémákhoz vezethet.",
+    "selectActivity": "Válassz aktivitási szintet"
+  },
+  "macroCalculator": {
+    "title": "Makrotápanyag kalkulátor",
+    "description": "Számítsd ki az optimális fehérje-, szénhidrát- és zsírbeviteledet a fitnesz céljaidhoz",
+    "inputTitle": "Add meg az adataidat",
+    "dailyCalorieTarget": "Napi kalóriacél",
+    "useCalculator": "Használd a napi kalória kalkulátort a célod meghatározásához",
+    "fitnessGoal": "Fitnesz cél",
+    "macros": "Makrók",
+    "weightLoss": "Fogyás",
+    "maintenance": "Fenntartás",
+    "muscleGain": "Izomépítés",
+    "yourMacros": "Napi makrotápanyagaid",
+    "resultDescription": "Ezek a makrotápanyag-célok a(z) {goal} célodhoz vannak optimalizálva. Kövesd a napi beviteledet, hogy a legjobb eredmények érdekében elérd ezeket a célokat.",
+    "macroSplit": "Makro elosztás",
+    "balanced": "Kiegyensúlyozott (40% szénhidrát, 30% fehérje, 30% zsír)",
+    "lowCarb": "Alacsony szénhidrát (20% szénhidrát, 40% fehérje, 40% zsír)",
+    "highProtein": "Magas fehérje (30% szénhidrát, 40% fehérje, 30% zsír)",
+    "ketogenic": "Ketogén (5% szénhidrát, 25% fehérje, 70% zsír)",
+    "protein": "Fehérje",
+    "carbs": "Szénhidrát",
+    "fat": "Zsír",
+    "grams": "gramm",
+    "aboutMacros": "A makrotápanyagokról",
+    "aboutDescription": "A makrotápanyagok (makrók) azok a tápanyagok, amelyekre a tested nagy mennyiségben van szüksége: fehérje, szénhidrát és zsír. Mindegyik energiát (kalóriát) szolgáltat és egyedi szerepet játszik az egészségedben és fitneszedben.",
+    "macroRoles": "Makró szerepek",
+    "proteinRole": "Fehérje (4 kal/g): Szöveteket épít és javít, támogatja az izomépítést",
+    "carbsRole": "Szénhidrát (4 kal/g): Elsődleges energiaforrás a tested és az agyad számára",
+    "fatRole": "Zsír (9 kal/g): Támogatja a hormontermelést, tápanyag-felszívódást, energiát",
+    "choosingSplit": "Az elosztás kiválasztása",
+    "choosingSplitDescription": "Az ideális makró elosztásod a céljaidtól, aktivitási szintedtől és személyes preferenciáidtól függ. A sportolóknak több szénhidrátra lehet szükségük, míg az alacsony szénhidrátú étrendet követők a fehérjét és a zsírokat helyezik előtérbe.",
+    "goalPlaceholder": "Válaszd ki a célod"
+  },
+  "foodSearch": {
+    "title": "Étel és Táplálkozás",
+    "description": "Fedezd fel az egészséges hozzávalókat, edzés recepteket és részletes tápérték információkat",
+    "searchPlaceholder": "Keress egy ételt (pl. csirkemell, alma)...",
+    "noResults": "Nincs találat. Próbálj meg másik keresési kifejezést vagy kategóriát.",
+    "allFoods": "Összes étel",
+    "serving": "Adag",
+    "nutritionFacts": "Tápérték-adatok",
+    "per100g": "100 g-onként",
+    "calories": "Kalória",
+    "cal": "kal",
+    "fiber": "Rost",
+    "items": "tétel",
+    "showing": "Megjelenítve",
+    "ingredients": "Hozzávalók",
+    "preWorkout": "Edzés előtt",
+    "postWorkout": "Edzés után",
+    "calorieTable": "Kalória táblázat",
+    "preWorkoutTitle": "Edzés előtti receptek",
+    "preWorkoutDescription": "Töltsd fel az edzést ezekkel az energiát adó ételekkel. Fogyaszd 30-120 perccel edzés előtt az optimális teljesítményért.",
+    "postWorkoutTitle": "Edzés utáni receptek",
+    "postWorkoutDescription": "Maximalizáld a regenerálódást ezekkel a fehérjében gazdag ételekkel. Fogyaszd 2 órán belül az edzés után a legjobb eredményekért.",
+    "calorieTableTitle": "Gyors kalória referencia",
+    "calorieTableDescription": "Hasonlítsd össze a kalóriákat és fehérjetartalmat a különböző élelmiszer-kategóriákban az okos étkezés tervezéséhez.",
+    "prepTime": "Elkészítési idő",
+    "servings": "Adagok",
+    "ingredientsList": "Hozzávalók",
+    "instructions": "Elkészítés",
+    "tip": "Tipp",
+    "foodName": "Étel",
+    "calPerProtein": "Kal/Fehérje",
+    "quickReference": "Napi beviteli irányelvek",
+    "proteinGoal": "Fehérje cél",
+    "carbsGoal": "Szénhidrát cél",
+    "fatsGoal": "Zsír cél",
+    "note": "Megjegyzés",
+    "noteDescription": "A tápértékek standard adagméreteken alapulnak, és változhatnak az elkészítési módtól függően.",
+    "aboutFood": "Az étel keresésről",
+    "aboutDescription": "Ez az eszköz lehetővé teszi a gyakori ételek tápértékadatainak keresését. Az adatok az USDA National Nutrient Database-en alapulnak. Az értékek 100 gramm élelmiszerenként szerepelnek.",
+    "disclaimer": "Jogi nyilatkozat",
+    "disclaimerDescription": "A tápértékek változhatnak az elkészítési mód, márka és forrás alapján. Használd ezt általános útmutatóként."
+  },
+  "tips": {
+    "seo": {
+      "title": "Fitnesz Tippek Kezdőknek | FitFusion",
+      "description": "Alapvető fitnesz tippek és tanácsok kezdőknek és visszatérő sportolóknak. Tanuld meg, hogyan kezdd el biztonságosan és hatékonyan a fitnesz utad."
+    },
+    "badge": "Kezdőknek",
+    "title": "Fitnesz Tippek Kezdőknek és Visszatérő Sportolóknak",
+    "subtitle": "Teljes útmutatód a fitnesz utad magabiztos elkezdéséhez vagy újrakezdéséhez",
+    "whyExercise": {
+      "title": "Miért Fontos a Rendszeres Testmozgás",
+      "intro": "A rendszeres fizikai aktivitás az egyik legfontosabb dolog, amit az egészségedért tehetsz. Kortól és fitnesz szinttől függetlenül, a testmozgás előnyei valóban átalakítók."
+    },
+    "benefits": {
+      "cardiovascular": {
+        "title": "Szív Egészség",
+        "description": "Erősíti a szíved, javítja a keringést és csökkenti a kardiovaszkuláris betegségek kockázatát"
+      },
+      "mental": {
+        "title": "Mentális Jóllét",
+        "description": "Csökkenti a stresszt, szorongást és depressziót, miközben javítja a hangulatot és önbizalmat"
+      },
+      "strength": {
+        "title": "Fizikai Erő",
+        "description": "Izmokat épít, növeli a csontok sűrűségét és javítja az általános fizikai képességeket"
+      },
+      "flexibility": {
+        "title": "Rugalmasság és Egyensúly",
+        "description": "Fokozza a mobilitást, megelőzi az eleséseket és fenntartja a függetlenséget az öregedéssel"
+      }
+    },
+    "beginnerTips": {
+      "title": "Alapvető Tippek Kezdőknek",
+      "intro": "A fitnesz utad elkezdése elsöprőnek tűnhet, de ezek az egyszerű tippek segítenek erős alapot építeni:",
+      "tip1": "Kezdj ott, ahol vagy - Ne hasonlítsd magad másokhoz. Minden szakértő egykor kezdő volt. Az utad egyedi.",
+      "tip2": "A következetesség fontosabb, mint az intenzitás - Jobb rendszeresen mérsékelt edzést végezni, mint alkalmanként intenzívet. Célozd meg a fenntartható fejlődést.",
+      "tip3": "Figyelj a testedre - Némi izomfájdalom normális, de az éles fájdalom figyelmeztető jel. Pihenj, amikor szükséges, és ne erőltesd túl magad fájdalom esetén.",
+      "tip4": "Ünnepeld a kis sikereket - Edzetél ma? Ez győzelem! A haladás nem mindig látható a mérleген vagy a tükörben.",
+      "tip5": "Tedd élvezetessé - Válassz olyan tevékenységeket, amiket tényleg szeretsz. Az edzés ne legyen büntetés. Táncolj, ússz, túrázz vagy sportolj, amit szeretsz."
+    },
+    "buildingRoutine": {
+      "title": "Fitnesz Rutin Építése",
+      "intro": "Egy fenntartható fitnesz rutin létrehozása kulcsfontosságú a hosszú távú sikerhez. Így építs egyet, ami neked működik:"
+    },
+    "routine": {
+      "step1": {
+        "title": "Kezdj Lassan és Fokozatosan Haladj",
+        "description": "Kezdj 2-3 rövid edzéssel hetente (még a 10-15 perc is számít!). Fokozatosan növeld az időtartamot és intenzitást heteken és hónapokon keresztül. Ez megelőzi a kiégést és sérüléseket."
+      },
+      "step2": {
+        "title": "Állíts Fel Reális, Konkrét Célokat",
+        "description": "A 'fitté válás' helyett próbáld: 'sétálj 20 percet hetente háromszor' vagy 'csinálj 10 fekvőtámaszt'. A konkrét célok egyértelmű célpontokat adnak, amiket elérhetsz és megünnepelhetsz."
+      },
+      "step3": {
+        "title": "Ütemezd Be az Edzéseidet",
+        "description": "Kezeld az edzést úgy, mint egy fontos találkozót. Tedd be a naptáradba és védd ezt az időt. A reggeli edzések nagyszerűek lehetnek a következetességhez."
+      },
+      "step4": {
+        "title": "Keverj Különböző Típusú Gyakorlatokat",
+        "description": "Tartalmazz kardió (séta, futás, kerékpározás), erősítő edzést (súlyzós vagy testsúlyos) és rugalmassági munkát (nyújtás, jóga) a kiegyensúlyozott fitneszhez."
+      },
+      "step5": {
+        "title": "Kövesd a Haladásod",
+        "description": "Vezess egy egyszerű edzésnaplót. Az idővel látható következetesség és fejlődés hihetetlenül motiváló és segít felelősnek maradni."
+      }
+    },
+    "injury": {
+      "title": "Sérülésmeg előzés és Helyes Forma",
+      "intro": "A sérülésektől való mentesség kulcsfontosságú a fitnesz utad fenntartásához. Kövesd ezeket az irányelveket a biztonságos edzéshez:",
+      "injury1": "Mindig melegedj be 5-10 percig könnyű kardióval és dinamikus nyújtással az edzés előtt, hogy felkészítsd az izmaidat.",
+      "injury2": "Fókuszálj a helyes formára a nehéz súlyok vagy magas intenzitás helyett. Ha bizonytalan vagy, nézz oktatóvideókat vagy fontold meg, hogy kezdetben edzővel dolgozz.",
+      "injury3": "Hűlj le az edzés után gyengéd nyújtással. Ez segít csökkenteni az izomfájdalmat és javítja a rugalmasságot idővel.",
+      "injury4": "Fokozatosan haladj - növeld az edzés intenzitását vagy időtartamát hetente legfeljebb 10%-kal, hogy tested ideje legyen alkalmazkodni."
+    },
+    "recovery": {
+      "title": "Pihenés, Regeneráció és Táplálkozás",
+      "intro": "A regeneráció éppoly fontos, mint maga az edzés. A tested a pihenés alatt erősödik, nem az edzés alatt:",
+      "recovery1": "Aludj 7-9 órát minden éjjel minőségi alvást. Ilyenkor javítja és építi a tested az izmokat. A rossz alvás aláássa a fitnesz erőfeszítéseidet.",
+      "recovery2": "Tarts legalább 1-2 pihenőnapot hetente. A pihenőnapok nem jelentik a teljesen mozdulatlan állapotot - a könnyű séta vagy enyhe jóga nagyszerű.",
+      "recovery3": "Táplál be tested kiegyensúlyozott táplálkozással. Tartalmazzon bőséges fehérjét az izomjavításhoz, komplex szénhidrátokat az energiához és egészséges zsírokat az általános egészséghez.",
+      "recovery4": "Maradj hidratált egész nap, ne csak edzés közben. A víz minden testi funkcióhoz és optimális teljesítményhez elengedhetetlen."
+    },
+    "motivation": {
+      "title": "Meg Tudod Csinálni!",
+      "message": "Ne feledd, a kezdés a legnehezebb rész. Minden edzés befektetés a jövőbeli énedbe. Légy türelmes magaddal, maradj következetes, és ünnepeld meg minden előrelépést. Többre vagy képes, mint gondolnád!",
+      "quote": "Az ezer mérföldes utazás egyetlen lépéssel kezdődik. Tedd meg azt a lépést ma."
+    }
+  },
+  "supplements": {
+    "seo": {
+      "title": "Táplálékkiegészítő Útmutató és Ajánlások | FitFusion",
+      "description": "Tudományos alapú táplálékkiegészítő ajánlások korod, súlyod és fitnesz céljaid alapján. Tudj meg a biztonságos kiegészítésről és arról, mely kiegészítőket kerüld."
+    },
+    "badge": "Oktatási Útmutató",
+    "title": "Étrend-kiegészítő Útmutató",
+    "subtitle": "Személyre szabott kiegészítő ajánlások testsúlyod, korod és fitnesz céljaid alapján",
+    "disclaimer": {
+      "title": "Fontos Orvosi Felelősségkizárás:",
+      "message": "Ez az eszköz csak általános oktatási információt nyújt. Mindig konzultálj képzett egészségügyi szolgáltatóval, mielőtt bármilyen kiegészítő kúrát elkezdenél, különösen, ha meglévő egészségügyi problémáid vannak, gyógyszert szedsz, terhes vagy szoptatsz."
+    },
+    "calculator": {
+      "title": "Kapd Meg Személyre Szabott Ajánlásaidat",
+      "description": "Add meg az adataidat, hogy az igényeidhez szabott kiegészítő javaslatokat kapj"
+    },
+    "importantNote": {
+      "title": "Mielőtt Elkezded",
+      "point1": "A kiegészítők egy kiegyensúlyozott étrend és egészséges életmód kiegészítésére szolgálnak, nem helyettesítésére.",
+      "point2": "A minőség számít - válassz jó hírű márkákat harmadik féltől származó teszteléssel (USP, NSF vagy Informed-Sport tanúsítvánnyal).",
+      "point3": "Több nem jobb - tartsd be az ajánlott adagokat a lehetséges mellékhatások elkerülése érdekében."
+    },
+    "yourRecommendations": "Személyre Szabott Kiegészítő Ajánlásaid",
+    "recommendationsDescription": "Profilod alapján íme a tudományosan alátámasztott kiegészítő javaslatok. Ne feledd, konzultálj orvossal, mielőtt új kiegészítőket kezdenél szedni.",
+    "priority": {
+      "essential": "Alapvető",
+      "beneficial": "Hasznos",
+      "optional": "Opcionális"
+    },
+    "dosageLabel": "Ajánlott Adag",
+    "timingLabel": "Legjobb Időzítés",
+    "benefitsLabel": "Előnyök",
+    "typicalDosageLabel": "Tipikus Adag",
+    "bestForLabel": "Legjobb",
+    "recommendations": {
+      "protein": {
+        "name": "Fehérjepor",
+        "dosage": "{{amount}}g napi teljes fehérje (étellel együtt)",
+        "timing": "Edzés után vagy a nap folyamán a fehérje célok eléréséhez"
+      },
+      "creatine": {
+        "name": "Kreatin-monohidrát",
+        "dosage": "3-5g naponta",
+        "timing": "Napszaktól függetlenül, a következetesség fontosabb, mint az időzítés"
+      },
+      "multivitamin": {
+        "name": "Minőségi Multivitamin",
+        "dosage": "1 adag naponta a termék címkéje szerint",
+        "timing": "Étkezéssel a jobb felszívódás érdekében"
+      },
+      "omega3": {
+        "name": "Omega-3 Halolaj",
+        "dosage": "1-3g EPA+DHA naponta",
+        "timing": "Étkezésekkel a halas utóíz csökkentéséhez"
+      },
+      "vitaminD": {
+        "name": "D3-vitamin",
+        "dosage": "1000-2000 NE naponta (vagy orvos ajánlása szerint)",
+        "timing": "Zsírtartalmú étkezéssel az optimális felszívódáshoz"
+      },
+      "calcium": {
+        "name": "Kalcium Kiegészítő",
+        "dosage": "500-1000mg naponta (először fontold meg az étrendbeli bevitelt)",
+        "timing": "Oszd el az adagokat a nap folyamán étkezésekkel"
+      },
+      "bcaa": {
+        "name": "BCAA-k (Elágazó Láncú Aminosavak)",
+        "dosage": "5-10g edzések körül",
+        "timing": "Intenzív edzések előtt, alatt vagy után"
+      }
+    },
+    "commonSupplements": {
+      "title": "Gyakori Kiegészítők Magyarázata"
+    },
+    "common": {
+      "protein": {
+        "name": "Fehérjepor",
+        "benefits": "Támogatja az izom regenerációt és növekedést, kényelmes módja a napi fehérje szükséglet kielégítésének, segíti a jóllakottságot fogyás közben",
+        "dosage": "20-40g adagonként, napi 1-3 alkalommal szükség szerint",
+        "bestFor": "Sportolók, akik nehezen érik el a fehérje céljaikat étellel, edzés utáni regeneráció"
+      },
+      "creatine": {
+        "name": "Kreatin-monohidrát",
+        "benefits": "Javítja az erőt és teljesítményt, fokozza az izomépítést, támogatja a kognitív funkciókat, jól kutatott és biztonságos",
+        "dosage": "3-5g naponta (nincs szükség feltöltő fázisra)",
+        "bestFor": "Erősítő edzés, nagy intenzitású gyakorlatok, izomépítési célok"
+      },
+      "multivitamin": {
+        "name": "Minőségi Multivitamin",
+        "benefits": "Betölti az étrend tápanyag hiányait, támogatja az általános egészséget, antioxidáns védelmet nyújt",
+        "dosage": "1 adag naponta a címke szerint",
+        "bestFor": "Mindenki számára, különösen korlátozott étrendűek vagy változatlan étkezők"
+      },
+      "omega3": {
+        "name": "Omega-3 Zsírsavak",
+        "benefits": "Csökkenti a gyulladást, támogatja a szív egészségét, javítja az agyi funkciókat, segíti az ízületek egészségét",
+        "dosage": "1-3g EPA+DHA együtt naponta",
+        "bestFor": "Szív egészség, gyulladáscsökkentés, akik nem esznek rendszeresen zsíros halat"
+      },
+      "vitaminD": {
+        "name": "D3-vitamin",
+        "benefits": "Támogatja a csont egészséget, immunfunkciót, hangulat szabályozást, izomműködést",
+        "dosage": "1000-4000 NE naponta (ellenőriztess szintet)",
+        "bestFor": "Akik korlátozott napsugárzásnak vannak kitéve, idősek, északi éghajlaton élők"
+      },
+      "preworkout": {
+        "name": "Edzés Előtti Kiegészítő",
+        "benefits": "Növeli az energiát és fókuszt, javítja az edzés teljesítményt, fokozza az állóképességet",
+        "dosage": "1 adag 20-30 perccel edzés előtt",
+        "bestFor": "Intenzív edzések, kora reggeli edzések (óvatosan használd)"
+      }
+    },
+    "safety": {
+      "title": "Kiegészítő Biztonsági Irányelvek",
+      "intro": "Kövesd ezeket az alapvető biztonsági tippeket a felelős kiegészítéshez:",
+      "tip1": "Olvasd el figyelmesen a címkéket - Ellenőrizd a harmadik féltől származó tanúsítványt (USP, NSF, Informed-Sport) a minőség és tisztaság biztosításához. Kerüld a saját keverékeket, amelyek nem közlik a pontos mennyiségeket.",
+      "tip2": "Kezdj egyszerre egy kiegészítővel - Ez segít azonosítani az esetleges káros reakciókat és megérteni, mi működik a testednek.",
+      "tip3": "Tartsd be az ajánlott adagokat - Több nem jobb. A túlzott bevitel mellékhatásokat okozhat és pénzkidobás. A zsírban oldódó vitaminok (A, D, E, K) mérgező szintre halmozódhatnak fel.",
+      "tip4": "Fontold meg az időzítést és kölcsönhatásokat - Néhány kiegészítő kölcsönhatásba lép gyógyszerekkel vagy más kiegészítőkkel. Vedd külön a kalciumot és a vasat, mivel versenyeznek a felszívódásért.",
+      "tip5": "Tárold megfelelően és ellenőrizd a lejárati dátumokat - Tartsd a kiegészítőket hűvös, száraz helyen közvetlen napsugárzástól távol. Dobd el a lejárt termékeket, mivel a hatóanyag csökken idővel."
+    },
+    "avoid": {
+      "title": "Kerülendő vagy Rendkívül Óvatosan Használandó Kiegészítők",
+      "intro": "Ezek a kiegészítők gyakran szükségtelenek, potenciálisan károsak vagy hiányzik a tudományos bizonyíték:",
+      "avoid1": "Fogyasztó tabletták és 'zsírégető' - Gyakran veszélyes stimulánsokat, bizonyítatlan összetevőket tartalmaznak, vagy egyszerűen hatástalanok. Inkább az étrendre és edzésre összpontosíts.",
+      "avoid2": "Anabolikus szteroidok és prohormonok - Recept nélkül illegálisak, komoly egészségügyi kockázatok beleértve a májkárosodást, szívproblémákat és hormonális egyensúlyhiányt.",
+      "avoid3": "Megadózisú vitaminok - A vitaminok messze az ajánlott napi bevitel felett történő szedése mérgező lehet (különösen A, D, E, K vitaminok) és növelheti az egészségügyi kockázatokat.",
+      "avoid4": "Szabályozatlan kiegészítők ismeretlen forrásokból - A megbízhatatlan weboldalakról vásárolt vagy egzotikus összetevőket tartalmazó termékek szennyezettek, rosszul címkézettek vagy tiltott anyagokat tartalmazhatnak."
+    },
+    "finalNote": {
+      "title": "Ne Feledd: Először az Étel, Másodszor a Kiegészítők",
+      "message": "A legjobb táplálkozás változatos, kiegyensúlyozott étrendből származik, amely gazdag teljes értékű élelmiszerekben. A kiegészítők bizonyos hiányok betöltésére szolgálnak, nem az egészséges táplálkozás helyettesítésére. A kiegészítők előtt helyezd előtérbe a minőségi alvást, rendszeres testmozgást, stresszkezelést és teljes értékű élelmiszereket."
+    }
+  },
+  "errors": {
+    "pageNotFound": "Az oldal nem található",
+    "pageNotFoundDescription": "A keresett oldal nem létezik, vagy áthelyezték."
+  },
+  "actions": {
+    "goBack": "Vissza"
+  }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
+    <title>FitFusion - Science-Based Fitness & Nutrition Tools</title>
+    <link rel="alternate" type="application/rss+xml" title="FitFusion Blog" href="/feed.xml" />
+    <meta name="description" content="Free science-based fitness calculators for BMI, BMR, daily calories, and macros. Personalized supplement guidance, expert nutrition tips, and a global food database." />
+    <meta name="keywords" content="fitness calculator, BMI calculator, BMR tracker, TDEE calculator, macro counter, international fitness tools" />
+
+    <!-- Open Graph / Facebook (fallback values; pages override these dynamically) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fit-fusion.eu/" />
+    <meta property="og:site_name" content="FitFusion" />
+    <meta property="og:title" content="FitFusion - Science-Based Fitness & Nutrition Tools" />
+    <meta property="og:description" content="Free science-based fitness calculators for BMI, BMR, daily calories, and macros. Personalized supplement guidance, expert nutrition tips, and a global food database." />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://fit-fusion.eu/og-image.jpg" />
+    <meta property="og:image:width" content="896" />
+    <meta property="og:image:height" content="584" />
+
+    <!-- Twitter Card (fallback values; pages override these dynamically) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="FitFusion - Science-Based Fitness & Nutrition Tools" />
+    <meta name="twitter:description" content="Free science-based fitness calculators for BMI, BMR, daily calories, and macros. Personalized supplement guidance, expert nutrition tips, and a global food database." />
+    <meta name="twitter:image" content="https://fit-fusion.eu/og-image.jpg" />
+
+    <!-- Preconnect to critical origins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+
+    <!-- Preload the homepage hero (LCP image) -->
+    <link rel="preload" as="image" imagesrcset="/images/hero-768.webp 768w, /images/hero-1120.webp 1120w, /images/hero-1408.webp 1408w" imagesizes="100vw" fetchpriority="high">
+
+    <!-- Non-blocking font loading: stylesheet applies once loaded, text renders immediately with fallback font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
+
+    <!-- Google Tag Manager - deferred for better LCP -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WRX7JGB');</script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WRX7JGB"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- Tidio chat: deferred until first user interaction (or 6s fallback) to keep it off the critical path -->
+    <script>
+      (function () {
+        var loaded = false;
+        function loadTidio() {
+          if (loaded) return;
+          loaded = true;
+          var s = document.createElement("script");
+          s.src = "https://code.tidio.co/lw711nytxv2efldcc8zzbnmkoaounxk9.js";
+          s.async = true;
+          document.body.appendChild(s);
+          ["pointerdown", "scroll", "keydown", "touchstart"].forEach(function (e) {
+            window.removeEventListener(e, loadTidio, { passive: true });
+          });
+        }
+        ["pointerdown", "scroll", "keydown", "touchstart"].forEach(function (e) {
+          window.addEventListener(e, loadTidio, { passive: true, once: true });
+        });
+        window.addEventListener("load", function () {
+          setTimeout(loadTidio, 6000);
+        });
+      })();
+    </script>
+  </body>
+</html>

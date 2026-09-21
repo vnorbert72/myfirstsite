@@ -1,0 +1,6 @@
+# robots.txt for FitFusion
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://fit-fusion.eu/sitemap.xml
