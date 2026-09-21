@@ -1,6 +1,7 @@
 import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
+import { ensureSchema } from "./db";
 
 const app = express();
 // Trust the first proxy hop (Replit/Vercel/Cloudflare style) so req.ip
@@ -66,6 +67,13 @@ app.use((req, res, next) => {
 });
 
 (async () => {
+  try {
+    await ensureSchema();
+  } catch (err) {
+    // Never take the whole site down over a transient DB hiccup at
+    // boot — calculators and the blog don't depend on it.
+    console.error("ensureSchema failed, continuing without it", err);
+  }
   const server = await registerRoutes(app);
 
   app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {

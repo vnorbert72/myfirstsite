@@ -1,11 +1,10 @@
-import { sql } from "drizzle-orm";
-import { pgTable, text, varchar, timestamp } from "drizzle-orm/pg-core";
+import { mysqlTable, varchar, text, timestamp } from "drizzle-orm/mysql-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
-export const users = pgTable("users", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  username: text("username").notNull().unique(),
+export const users = mysqlTable("users", {
+  id: varchar("id", { length: 36 }).primaryKey(),
+  username: varchar("username", { length: 255 }).notNull().unique(),
   password: text("password").notNull(),
 });
 
@@ -17,15 +16,16 @@ export const insertUserSchema = createInsertSchema(users).pick({
 export type InsertUser = z.infer<typeof insertUserSchema>;
 export type User = typeof users.$inferSelect;
 
-export const subscribers = pgTable("subscribers", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  email: text("email").notNull().unique(),
-  language: text("language").notNull().default("en"),
+export const subscribers = mysqlTable("subscribers", {
+  id: varchar("id", { length: 36 }).primaryKey(),
+  email: varchar("email", { length: 254 }).notNull().unique(),
+  language: varchar("language", { length: 5 }).notNull().default("en"),
   createdAt: timestamp("created_at").notNull().defaultNow(),
+  unsubscribedAt: timestamp("unsubscribed_at"),
 });
 
 export const insertSubscriberSchema = createInsertSchema(subscribers)
-  .omit({ id: true, createdAt: true })
+  .omit({ id: true, createdAt: true, unsubscribedAt: true })
   .extend({
     email: z
       .string()
