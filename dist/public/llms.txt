@@ -1,0 +1,30 @@
+# FitFusion
+
+> FitFusion (fit-fusion.eu) is a free, science-based fitness calculator toolkit with BMI, BMR, daily calorie (TDEE), and macronutrient calculators, a food nutrition search, a personalized supplement guide, and an evidence-based health blog. All content is available in English, Hungarian, and Spanish.
+
+All calculators run in the browser using published formulas (Mifflin-St Jeor for BMR, WHO BMI classification, USDA macronutrient guidance). Results are educational and not medical advice.
+
+## Calculators
+
+- [BMI Calculator](https://fit-fusion.eu/bmi): Body Mass Index with WHO categories, metric and imperial units, and a visual gauge
+- [BMR Calculator](https://fit-fusion.eu/bmr): Basal Metabolic Rate using the Mifflin-St Jeor equation
+- [Daily Calorie Calculator](https://fit-fusion.eu/calories): TDEE estimate from BMR and activity level, with goal-based targets
+- [Macro Calculator](https://fit-fusion.eu/macros): Protein, carbohydrate, and fat breakdown for a calorie target and fitness goal
+- [Food Nutrition Search](https://fit-fusion.eu/food): Look up calories and macronutrients for common foods
+
+## Guides
+
+- [Fitness Tips](https://fit-fusion.eu/tips): Practical, evidence-based training and nutrition tips
+- [Supplement Guide](https://fit-fusion.eu/supplements): Personalized, science-backed supplement recommendations
+
+## Blog
+
+- [Health & Fitness Blog](https://fit-fusion.eu/blog): Articles on nutrition, workouts, and wellness in English, Hungarian, and Spanish
+- [RSS Feed](https://fit-fusion.eu/feed.xml): Latest blog posts
+
+## Optional
+
+- [About](https://fit-fusion.eu/about): Who makes FitFusion and the methodology behind the calculators
+- [Privacy Policy](https://fit-fusion.eu/privacy): Data handling and privacy details
+- [Contact](https://fit-fusion.eu/contact): How to get in touch
+- [Sitemap](https://fit-fusion.eu/sitemap.xml): Full list of indexable pages
