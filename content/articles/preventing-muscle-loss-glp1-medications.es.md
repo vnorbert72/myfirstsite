@@ -1,6 +1,7 @@
 ---
 title: Cómo prevenir la pérdida de masa muscular con Ozempic y otros medicamentos GLP-1
 excerpt: Fármacos GLP-1 como Ozempic y Wegovy pueden hacer que una parte importante del peso perdido sea músculo, no solo grasa. Así puedes proteger tu masa muscular con la ingesta de proteína y el entrenamiento de fuerza.
+imageAlt: Pechuga de pollo a la plancha con verduras de hoja verde y quinoa, junto a un vaso de agua y un par de mancuernas ligeras sobre la encimera de la cocina
 ---
 
 # Cómo prevenir la pérdida de masa muscular con Ozempic y otros medicamentos GLP-1

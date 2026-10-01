@@ -1,6 +1,7 @@
 ---
 title: Izomvesztés megelőzése Ozempic és más GLP-1 gyógyszerek szedése közben
 excerpt: Az olyan GLP-1 gyógyszerek, mint az Ozempic és a Wegovy, a lefogyott testsúly jelentős részét izomból is elvehetik, nem csak zsírból. Így védheted az izmaidat a megfelelő fehérjebevitellel és erősítő edzéssel.
+imageAlt: Grillcsirkemell leveles zöldekkel és quinoával, mellette egy pohár víz és egy pár könnyű kézisúlyzó a konyhapulton
 ---
 
 # Izomvesztés megelőzése Ozempic és más GLP-1 gyógyszerek szedése közben

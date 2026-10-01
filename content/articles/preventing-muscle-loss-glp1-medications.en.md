@@ -9,6 +9,8 @@ readTime: 7
 tags: GLP-1, Ozempic, Wegovy, muscle loss, protein intake, strength training, weight loss
 seoTitle: Preventing Muscle Loss on Ozempic (GLP-1) | FitFusion
 seoDescription: Preventing muscle loss on Ozempic, Wegovy and other GLP-1 medications: how much protein you need, why strength training matters, and a practical weekly plan.
+imageUrl: /images/blog/preventing-muscle-loss-glp1-medications.jpg
+imageAlt: Grilled chicken breast with leafy greens and quinoa next to a glass of water and a pair of light dumbbells on a kitchen counter
 ---
 
 # Preventing Muscle Loss on Ozempic and Other GLP-1 Medications
