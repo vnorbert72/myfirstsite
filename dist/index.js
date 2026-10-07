@@ -370,6 +370,17 @@ function getLatestArticlesByLang(limit = 3) {
   }
   return result;
 }
+function getArticleSeoBySlug(slug) {
+  const entries = loadEntries();
+  const entry = entries.get(slug);
+  const en = entry?.files.en;
+  if (!en) return void 0;
+  if (en.meta.draft === "true") return void 0;
+  const title = en.meta.seoTitle || `${en.meta.title} | FitFusion`;
+  const description = en.meta.seoDescription || en.meta.excerpt || "";
+  const image = en.meta.imageUrl || void 0;
+  return { title, description, image };
+}
 
 // server/newsletter-template.ts
 function escapeHtml2(s) {
@@ -572,6 +583,142 @@ async function registerRoutes(app2) {
 import express from "express";
 import fs2 from "fs";
 import path2 from "path";
+
+// server/seo.ts
+var SITE_URL2 = "https://fit-fusion.eu";
+var STATIC_ROUTES = {
+  "/": {
+    title: "FitFusion - Free Science-Based Fitness & Nutrition Calculators",
+    description: "Free calculators for BMI, BMR, daily calories, and macros. Personalized supplement guidance, expert nutrition tips, and a global food database."
+  },
+  "/bmi": {
+    title: "BMI Calculator | FitFusion",
+    description: "Calculate your Body Mass Index (BMI) to understand your weight category and health status"
+  },
+  "/bmr": {
+    title: "BMR Calculator | FitFusion",
+    description: "Calculate your Basal Metabolic Rate (BMR) - the calories your body burns at rest"
+  },
+  "/calories": {
+    title: "Daily Calorie Calculator | FitFusion",
+    description: "Calculate your daily calorie needs based on your activity level and goals"
+  },
+  "/macros": {
+    title: "Macronutrient Calculator | FitFusion",
+    description: "Calculate your optimal protein, carbs, and fat intake for your fitness goals"
+  },
+  "/food": {
+    title: "Food & Nutrition | FitFusion",
+    description: "Explore healthy ingredients, workout recipes, and detailed nutrition information"
+  },
+  "/blog": {
+    title: "Blog & Articles - FitFusion Nutrition, Training & Wellness Insights",
+    description: "Evidence-based articles on nutrition, training, supplements, and wellness \u2014 written and reviewed by certified health professionals."
+  },
+  "/tips": {
+    title: "Fitness Tips for Beginners | FitFusion",
+    description: "Essential fitness tips and advice for beginners and returning athletes. Learn how to start your fitness journey safely and effectively."
+  },
+  "/supplements": {
+    title: "Supplement Guide & Recommendations | FitFusion",
+    description: "Evidence-based supplement recommendations based on your age, weight, and fitness goals. Learn about safe supplementation and which supplements to avoid."
+  },
+  "/about": {
+    title: "About Us - FitFusion Fitness & Nutrition Calculators",
+    description: "Learn about FitFusion's mission to make science-backed fitness and nutrition tools free and accessible to everyone, in multiple languages."
+  },
+  "/privacy": {
+    title: "Privacy Policy - FitFusion",
+    description: "How FitFusion handles your data: what we collect, how we use it, and your rights. We keep data collection to a minimum."
+  },
+  "/contact": {
+    title: "Contact Us - FitFusion",
+    description: "Get in touch with the FitFusion team. Email us at info@fit-fusion.eu, reach us on Instagram, or subscribe to our newsletter for updates."
+  }
+};
+function resolvePageMeta(pathname) {
+  const staticMeta = STATIC_ROUTES[pathname];
+  if (staticMeta) {
+    return { ...staticMeta, canonicalPath: pathname, found: true };
+  }
+  const articleMatch = /^\/blog\/([^/]+)$/.exec(pathname);
+  if (articleMatch) {
+    const slug = articleMatch[1];
+    const seo = getArticleSeoBySlug(slug);
+    if (seo) {
+      return {
+        title: seo.title,
+        description: seo.description,
+        image: seo.image,
+        canonicalPath: pathname,
+        found: true
+      };
+    }
+  }
+  return {
+    title: "Page Not Found | FitFusion",
+    description: "The page you are looking for could not be found.",
+    canonicalPath: pathname,
+    found: false
+  };
+}
+function escapeAttr(value) {
+  return value.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+function injectSeo(template, meta) {
+  let html = template;
+  const titleAttr = escapeAttr(meta.title);
+  const descAttr = escapeAttr(meta.description);
+  const canonicalUrl = `${SITE_URL2}${meta.canonicalPath}`;
+  html = html.replace(/<title>[^<]*<\/title>/, `<title>${titleAttr}</title>`);
+  html = html.replace(
+    /<meta name="description" content="[^"]*" \/>/,
+    `<meta name="description" content="${descAttr}" />`
+  );
+  html = html.replace(
+    /<meta property="og:title" content="[^"]*" \/>/,
+    `<meta property="og:title" content="${titleAttr}" />`
+  );
+  html = html.replace(
+    /<meta property="og:description" content="[^"]*" \/>/,
+    `<meta property="og:description" content="${descAttr}" />`
+  );
+  html = html.replace(
+    /<meta property="og:url" content="[^"]*" \/>/,
+    `<meta property="og:url" content="${escapeAttr(canonicalUrl)}" />`
+  );
+  html = html.replace(
+    /<meta name="twitter:title" content="[^"]*" \/>/,
+    `<meta name="twitter:title" content="${titleAttr}" />`
+  );
+  html = html.replace(
+    /<meta name="twitter:description" content="[^"]*" \/>/,
+    `<meta name="twitter:description" content="${descAttr}" />`
+  );
+  if (meta.image) {
+    const imageUrl = meta.image.startsWith("http") ? meta.image : `${SITE_URL2}${meta.image}`;
+    const imageAttr = escapeAttr(imageUrl);
+    html = html.replace(
+      /<meta property="og:image" content="[^"]*" \/>/,
+      `<meta property="og:image" content="${imageAttr}" />`
+    );
+    html = html.replace(
+      /<meta name="twitter:image" content="[^"]*" \/>/,
+      `<meta name="twitter:image" content="${imageAttr}" />`
+    );
+  }
+  const extraTags = [
+    `<link rel="canonical" href="${escapeAttr(canonicalUrl)}" />`
+  ];
+  if (!meta.found) {
+    extraTags.push(`<meta name="robots" content="noindex, nofollow" />`);
+  }
+  html = html.replace("</title>", `</title>
+    ${extraTags.join("\n    ")}`);
+  return html;
+}
+
+// server/vite.ts
 function log(message, source = "express") {
   const formattedTime = (/* @__PURE__ */ new Date()).toLocaleTimeString("en-US", {
     hour: "numeric",
@@ -632,9 +779,20 @@ function serveStatic(app2) {
       `Could not find the build directory: ${distPath}, make sure to build the client first`
     );
   }
-  app2.use(express.static(distPath));
-  app2.use("*", (_req, res) => {
-    res.sendFile(path2.resolve(distPath, "index.html"));
+  app2.use(express.static(distPath, { index: false }));
+  const indexPath = path2.resolve(distPath, "index.html");
+  const indexTemplate = fs2.readFileSync(indexPath, "utf-8");
+  app2.use("*", (req, res) => {
+    const [rawPathname] = req.originalUrl.split("?");
+    const pathname = decodeURIComponent(rawPathname || "/");
+    if (pathname !== "/" && pathname.endsWith("/")) {
+      const target = pathname.slice(0, -1) + req.originalUrl.slice(rawPathname.length);
+      res.redirect(301, target);
+      return;
+    }
+    const meta = resolvePageMeta(pathname);
+    const html = injectSeo(indexTemplate, meta);
+    res.status(meta.found ? 200 : 404).set({ "Content-Type": "text/html" }).send(html);
   });
 }
 

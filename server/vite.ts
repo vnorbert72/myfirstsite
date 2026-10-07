@@ -2,6 +2,7 @@ import express, { type Express } from "express";
 import fs from "fs";
 import path from "path";
 import { type Server } from "http";
+import { injectSeo, resolvePageMeta } from "./seo";
 
 // NOTE: "vite", "../vite.config" (which itself pulls in @vitejs/plugin-react
 // and the @replit/vite-plugin-* packages) and "nanoid" are only ever needed
@@ -92,10 +93,43 @@ export function serveStatic(app: Express) {
     );
   }
 
-  app.use(express.static(distPath));
+  // index: false stops express.static from auto-serving index.html for
+  // "/" itself, which would otherwise bypass the catch-all below and leave
+  // the homepage as the one page with no injected canonical/title.
+  app.use(express.static(distPath, { index: false }));
 
-  // fall through to index.html if the file doesn't exist
-  app.use("*", (_req, res) => {
-    res.sendFile(path.resolve(distPath, "index.html"));
+  // Every route used to fall through to the exact same static index.html,
+  // byte-for-byte identical (same <title>, no <link rel="canonical"> at
+  // all) for "/", "/bmi", "/blog/some-article", etc., and always with a
+  // 200 status even for a path that matches nothing. That is what Search
+  // Console's Page Indexing report flagged as "Duplicate without
+  // user-selected canonical" and "Crawled - currently not indexed": the
+  // very first HTML a crawler sees carried no per-page signal to tell
+  // pages apart. The handler below reads the template once, then injects
+  // a real per-route <title>/description/canonical (and the real article
+  // image for blog posts) before sending it, and returns an actual 404 for
+  // paths that match nothing instead of silently serving the homepage.
+  const indexPath = path.resolve(distPath, "index.html");
+  const indexTemplate = fs.readFileSync(indexPath, "utf-8");
+
+  app.use("*", (req, res) => {
+    // Express rewrites req.path to be relative to the "*" mount point
+    // (always "/"), so the real path has to come from originalUrl instead
+    // — req.path/req.baseUrl cannot be trusted here.
+    const [rawPathname] = req.originalUrl.split("?");
+    const pathname = decodeURIComponent(rawPathname || "/");
+
+    // "/bmi/" and "/bmi" previously served identical content with no
+    // redirect between them — a second, hidden duplicate URL for every
+    // route. Collapse the trailing slash permanently instead.
+    if (pathname !== "/" && pathname.endsWith("/")) {
+      const target = pathname.slice(0, -1) + req.originalUrl.slice(rawPathname.length);
+      res.redirect(301, target);
+      return;
+    }
+
+    const meta = resolvePageMeta(pathname);
+    const html = injectSeo(indexTemplate, meta);
+    res.status(meta.found ? 200 : 404).set({ "Content-Type": "text/html" }).send(html);
   });
 }

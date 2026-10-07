@@ -81,3 +81,26 @@ export function getLatestArticlesByLang(
   }
   return result;
 }
+
+export interface ArticleSeo {
+  title: string;
+  description: string;
+  image?: string;
+}
+
+/** Server-rendered SEO fields for one blog article, read from its English
+ * frontmatter (used to inject a real <title>/<meta description>/canonical
+ * into the raw HTML before any client JS runs, so crawlers that don't wait
+ * for hydration still see unique, non-duplicate signals per article). */
+export function getArticleSeoBySlug(slug: string): ArticleSeo | undefined {
+  const entries = loadEntries();
+  const entry = entries.get(slug);
+  const en = entry?.files.en;
+  if (!en) return undefined;
+  if (en.meta.draft === "true") return undefined;
+
+  const title = en.meta.seoTitle || `${en.meta.title} | FitFusion`;
+  const description = en.meta.seoDescription || en.meta.excerpt || "";
+  const image = en.meta.imageUrl || undefined;
+  return { title, description, image };
+}
